@@ -1,0 +1,196 @@
+{
+  "statute_metadata": {
+    "act_name": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "act_number": "Act No. 46 of 2023",
+    "enactment_year": 2023,
+    "jurisdiction": "India",
+    "sovereign_body": "Parliament of India",
+    "presidential_assent_date": "2023-12-25",
+    "official_gazette_publication": {
+      "gazette_title": "The Gazette of India, Extraordinary",
+      "part_and_section": "Part II, Section 1",
+      "notification_number": "No. 63",
+      "publication_date": "2023-12-25",
+      "publishing_directorate": "Directorate of Printing, Ministry of Housing and Urban Affairs, Government of India"
+    },
+    "commencement": {
+      "notification_number": "Ministry of Home Affairs Notification S.O. 848(E)",
+      "notification_date": "2024-02-23",
+      "effective_commencement_date": "2024-07-01",
+      "operative_clause": "In exercise of the powers conferred by sub-section (3) of section 1 of the Bharatiya Nagarik Suraksha Sanhita, 2023, the Central Government hereby appoints the 1st day of July, 2024 as the date on which the provisions of the said Sanhita shall come into force."
+    },
+    "official_repository": {
+      "repository_name": "India Code",
+      "maintaining_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+      "handle_url": "https://www.indiacode.nic.in/handle/123456789/20063"
+    },
+    "preceding_draft_bill_limitation": {
+      "bill_title": "The Bharatiya Nagarik Suraksha Sanhita, 2023 (As Introduced in Lok Sabha)",
+      "bill_number": "Bill No. 122 of 2023 / Bill No. 173 of 2023",
+      "status": "UNENACTED LEGISLATIVE BILL",
+      "limitation_warning": "The document marked 'As Introduced in Lok Sabha' is an unenacted legislative draft bill that was referred to the Parliamentary Standing Committee on Home Affairs (Report No. 247). It underwent clause renumbering and Schedule I modifications before enactment as Act No. 46 of 2023. It must not be treated as final enacted law."
+    }
+  },
+  "first_schedule_classifications": {
+    "description": "Classification of offences under the Bharatiya Nyaya Sanhita, 2023 pursuant to the First Schedule of the Bharatiya Nagarik Suraksha Sanhita, 2023 (Act No. 46 of 2023).",
+    "provisions": {
+      "BNS_2023_S77": {
+        "section_id": "Section 77",
+        "offense_title": "Voyeurism",
+        "first_conviction": {
+          "cognizability": "Cognizable",
+          "bailability": "Bailable",
+          "court_of_trial": "Any Magistrate"
+        },
+        "subsequent_conviction": {
+          "cognizability": "Cognizable",
+          "bailability": "Non-bailable",
+          "court_of_trial": "Any Magistrate"
+        }
+      },
+      "BNS_2023_S78": {
+        "section_id": "Section 78",
+        "offense_title": "Stalking",
+        "first_conviction": {
+          "cognizability": "Cognizable",
+          "bailability": "Bailable",
+          "court_of_trial": "Any Magistrate"
+        },
+        "subsequent_conviction": {
+          "cognizability": "Cognizable",
+          "bailability": "Non-bailable",
+          "court_of_trial": "Any Magistrate"
+        }
+      },
+      "BNS_2023_S79": {
+        "section_id": "Section 79",
+        "offense_title": "Word, gesture or act intended to insult the modesty of a woman",
+        "classification": {
+          "cognizability": "Cognizable",
+          "bailability": "Bailable",
+          "court_of_trial": "Any Magistrate"
+        }
+      },
+      "BNS_2023_S106_SUB1": {
+        "section_id": "Section 106(1)",
+        "offense_title": "Causing death by rash or negligent act (Active)",
+        "classification": {
+          "cognizability": "Cognizable",
+          "bailability": "Bailable",
+          "court_of_trial": "Magistrate of the first class"
+        }
+      },
+      "BNS_2023_S106_SUB2_UNCOMMENCED": {
+        "section_id": "Section 106(2)",
+        "offense_title": "Causing death by rash or negligent act and escaping without reporting",
+        "statutory_classification": {
+          "cognizability": "Cognizable",
+          "bailability": "Non-bailable",
+          "court_of_trial": "Magistrate of the first class"
+        },
+        "legal_status": "ENACTED BUT UNCOMMENCED / HELD IN ABEYANCE",
+        "commencement_exclusion_authority": "Ministry of Home Affairs Notification S.O. 850(E) dated 23 February 2024 expressly excluded Section 106(2) from commencement on 1 July 2024. Inoperative."
+      },
+      "BNS_2023_S303": {
+        "section_id": "Section 303",
+        "offense_title": "Theft",
+        "petty_theft_under_5000": {
+          "cognizability": "Non-cognizable",
+          "bailability": "Bailable",
+          "court_of_trial": "Any Magistrate"
+        },
+        "general_theft": {
+          "cognizability": "Cognizable",
+          "bailability": "Non-bailable",
+          "court_of_trial": "Any Magistrate"
+        }
+      },
+      "BNS_2023_S308": {
+        "section_id": "Section 308",
+        "offense_title": "Extortion",
+        "classification": {
+          "cognizability": "Cognizable",
+          "bailability": "Non-bailable",
+          "court_of_trial": "Magistrate of the first class"
+        }
+      },
+      "BNS_2023_S316": {
+        "section_id": "Section 316",
+        "offense_title": "Criminal breach of trust",
+        "classification": {
+          "cognizability": "Cognizable",
+          "bailability": "Non-bailable",
+          "court_of_trial": "Magistrate of the first class"
+        }
+      },
+      "BNS_2023_S318": {
+        "section_id": "Section 318",
+        "offense_title": "Cheating and dishonestly inducing delivery of property",
+        "classification": {
+          "cognizability": "Cognizable",
+          "bailability": "Non-bailable",
+          "court_of_trial": "Magistrate of the first class"
+        }
+      },
+      "BNS_2023_S319": {
+        "section_id": "Section 319",
+        "offense_title": "Cheating by personation",
+        "classification": {
+          "cognizability": "Cognizable",
+          "bailability": "Bailable",
+          "court_of_trial": "Magistrate of the first class"
+        }
+      },
+      "BNS_2023_S324": {
+        "section_id": "Section 324",
+        "offense_title": "Mischief",
+        "classification": {
+          "cognizability": "Non-cognizable",
+          "bailability": "Bailable",
+          "court_of_trial": "Any Magistrate"
+        }
+      },
+      "BNS_2023_S336": {
+        "section_id": "Section 336",
+        "offense_title": "Forgery / Forgery for purpose of cheating",
+        "classification": {
+          "cognizability": "Cognizable",
+          "bailability": "Non-bailable",
+          "court_of_trial": "Magistrate of the first class"
+        }
+      },
+      "BNS_2023_S340": {
+        "section_id": "Section 340",
+        "offense_title": "Using as genuine a forged document or electronic record",
+        "classification": {
+          "cognizability": "Cognizable",
+          "bailability": "Non-bailable",
+          "court_of_trial": "Magistrate of the first class"
+        }
+      },
+      "BNS_2023_S351": {
+        "section_id": "Section 351",
+        "offense_title": "Criminal intimidation",
+        "general_intimidation": {
+          "cognizability": "Non-cognizable",
+          "bailability": "Bailable",
+          "court_of_trial": "Any Magistrate"
+        },
+        "threat_of_death_or_grievous_hurt": {
+          "cognizability": "Cognizable",
+          "bailability": "Non-bailable",
+          "court_of_trial": "Magistrate of the first class"
+        }
+      },
+      "BNS_2023_S356": {
+        "section_id": "Section 356",
+        "offense_title": "Defamation",
+        "classification": {
+          "cognizability": "Non-cognizable",
+          "bailability": "Bailable",
+          "court_of_trial": "Court of Session (if against high constitutional functionary) / Magistrate of the first class"
+        }
+      }
+    }
+  }
+}

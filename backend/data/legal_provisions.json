@@ -1,0 +1,1654 @@
+[
+  {
+    "id": "ITA_2000_S43",
+    "jurisdiction": "India",
+    "act_name": "Information Technology Act, 2000",
+    "section_id": "Section 43",
+    "title": "Penalty and compensation for damage to computer, computer system, etc.",
+    "source_text": "If any person without permission of the owner or any other person who is incharge of a computer, computer system or computer network accesses or secures access to such computer, computer system or computer network; downloads, copies or extracts any data, computer data base or information; introduces or causes to be introduced any computer contaminant or computer virus into any computer; damages or causes to be damaged any computer; disrupts or causes disruption of any computer; or denies or causes the denial of access to any person authorized to access any computer, he shall be liable to pay damages by way of compensation to the person so affected.",
+    "plain_language_summary": "Accessing, downloading data from, introducing viruses into, damaging, or disrupting a computer, phone, or network without the owner's permission.",
+    "legal_elements": [
+      {
+        "element_id": "ITA_S43_E1",
+        "description": "Accessing or securing access to a computer, computer system, or network",
+        "keywords": [
+          "access",
+          "accessed",
+          "logged into",
+          "computer",
+          "system",
+          "network",
+          "server"
+        ]
+      },
+      {
+        "element_id": "ITA_S43_E2",
+        "description": "Lack of permission or authorization from the owner or person in charge",
+        "keywords": [
+          "without permission",
+          "without consent",
+          "unauthorized",
+          "no authorization"
+        ]
+      },
+      {
+        "element_id": "ITA_S43_E3",
+        "description": "Downloading, copying, damaging, introducing virus, or disrupting data or systems",
+        "keywords": [
+          "downloaded",
+          "copied",
+          "extracted",
+          "damaged",
+          "virus",
+          "malware",
+          "disrupted",
+          "deleted"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Does not apply to authorized network testing or lawful diagnostic activities conducted with express permission of the owner.",
+    "penalty_text": "Liable to pay damages by way of compensation not exceeding statutory limits to the person so affected.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1999",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-12T00:00:00Z",
+    "effective_from": "2000-10-17",
+    "effective_to": null,
+    "version_label": "Act No. 21 of 2000 as amended by Act No. 10 of 2009",
+    "source_document_identifier": "Act No. 21 of 2000"
+  },
+  {
+    "id": "ITA_2000_S66",
+    "jurisdiction": "India",
+    "act_name": "Information Technology Act, 2000",
+    "section_id": "Section 66",
+    "title": "Computer related offences",
+    "source_text": "If any person, dishonestly or fraudulently, does any act referred to in section 43, he shall be punishable with imprisonment for a term which may extend to three years or with fine which may extend to five lakh rupees or with both.",
+    "plain_language_summary": "Dishonestly or fraudulently hacking, accessing, modifying, or damaging another person's computer systems, data, or network.",
+    "legal_elements": [
+      {
+        "element_id": "ITA_S66_E1",
+        "description": "Commission of any unauthorized act referred to in section 43",
+        "keywords": [
+          "hacked",
+          "unauthorized access",
+          "tampered",
+          "deleted data",
+          "altered records",
+          "system breach"
+        ]
+      },
+      {
+        "element_id": "ITA_S66_E2",
+        "description": "Dishonest or fraudulent intention",
+        "keywords": [
+          "dishonestly",
+          "fraudulently",
+          "wrongful gain",
+          "wrongful loss",
+          "stole data"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Requires proof of mens rea (dishonest or fraudulent intent) in addition to the physical act under section 43.",
+    "penalty_text": "Imprisonment for a term which may extend to three years, or with fine which may extend to five lakh rupees, or with both.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1999",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-12T00:00:00Z",
+    "effective_from": "2009-10-27",
+    "effective_to": null,
+    "version_label": "Substituted by Act No. 10 of 2009",
+    "source_document_identifier": "Act No. 10 of 2009"
+  },
+  {
+    "id": "ITA_2000_S66B",
+    "jurisdiction": "India",
+    "act_name": "Information Technology Act, 2000",
+    "section_id": "Section 66B",
+    "title": "Punishment for dishonestly receiving stolen computer resource or communication device",
+    "source_text": "Whoever dishonestly receives or retains any stolen computer resource or communication device knowing or having reason to believe the same to be stolen computer resource or communication device, shall be punished with imprisonment of either description for a term which may extend to three years or with fine which may extend to one lakh rupees or with both.",
+    "plain_language_summary": "Receiving, buying, or keeping a stolen computer, smartphone, tablet, or digital storage device while knowing or suspecting it was stolen.",
+    "legal_elements": [
+      {
+        "element_id": "ITA_S66B_E1",
+        "description": "Receiving or retaining a computer resource or communication device",
+        "keywords": [
+          "received",
+          "retained",
+          "bought",
+          "possessed",
+          "phone",
+          "laptop",
+          "computer",
+          "device"
+        ]
+      },
+      {
+        "element_id": "ITA_S66B_E2",
+        "description": "Property is a stolen computer resource or communication device",
+        "keywords": [
+          "stolen device",
+          "stolen phone",
+          "stolen laptop",
+          "stolen computer"
+        ]
+      },
+      {
+        "element_id": "ITA_S66B_E3",
+        "description": "Dishonest intent with knowledge or reason to believe it was stolen",
+        "keywords": [
+          "knowing stolen",
+          "reason to believe",
+          "dishonestly received",
+          "black market"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": null,
+    "penalty_text": "Imprisonment of either description for a term which may extend to three years, or with fine which may extend to one lakh rupees, or with both.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1999",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-12T00:00:00Z",
+    "effective_from": "2009-10-27",
+    "effective_to": null,
+    "version_label": "Inserted by Act No. 10 of 2009",
+    "source_document_identifier": "Act No. 10 of 2009"
+  },
+  {
+    "id": "ITA_2000_S66C",
+    "jurisdiction": "India",
+    "act_name": "Information Technology Act, 2000",
+    "section_id": "Section 66C",
+    "title": "Punishment for identity theft",
+    "source_text": "Whoever, fraudulently or dishonestly make use of the electronic signature, password or any other unique identification feature of any other person, shall be punished with imprisonment of either description for a term which may extend to three years and shall also be liable to fine which may extend to rupees one lakh.",
+    "plain_language_summary": "Fraudulently or dishonestly using someone else's digital password, OTP, biometric credentials, electronic signature, or login details.",
+    "legal_elements": [
+      {
+        "element_id": "ITA_S66C_E1",
+        "description": "Use of electronic signature, password, or unique identification feature",
+        "keywords": [
+          "password",
+          "otp",
+          "credentials",
+          "electronic signature",
+          "biometric",
+          "aadhaar",
+          "pin",
+          "login details"
+        ]
+      },
+      {
+        "element_id": "ITA_S66C_E2",
+        "description": "Identifier belongs to another person",
+        "keywords": [
+          "another person",
+          "victim",
+          "someone else",
+          "another user"
+        ]
+      },
+      {
+        "element_id": "ITA_S66C_E3",
+        "description": "Fraudulent or dishonest intent in using the identification feature",
+        "keywords": [
+          "fraudulently",
+          "dishonestly",
+          "stole identity",
+          "misused",
+          "unauthorized use"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Requires fraudulent or dishonest mindset; accidental or authorized administrative access does not satisfy the offense.",
+    "penalty_text": "Imprisonment of either description for a term which may extend to three years and shall also be liable to fine which may extend to rupees one lakh.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1999",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-12T00:00:00Z",
+    "effective_from": "2009-10-27",
+    "effective_to": null,
+    "version_label": "Inserted by Act No. 10 of 2009",
+    "source_document_identifier": "Act No. 10 of 2009"
+  },
+  {
+    "id": "ITA_2000_S66D",
+    "jurisdiction": "India",
+    "act_name": "Information Technology Act, 2000",
+    "section_id": "Section 66D",
+    "title": "Punishment for cheating by personation by using computer resource",
+    "source_text": "Whoever, by means of any communication device or computer resource cheats by personating, shall be punished with imprisonment of either description for a term which may extend to three years and shall also be liable to fine which may extend to one lakh rupees.",
+    "plain_language_summary": "Cheating someone by pretending to be someone else or creating a fake online identity, social media profile, or email account.",
+    "legal_elements": [
+      {
+        "element_id": "ITA_S66D_E1",
+        "description": "Use of a computer resource or communication device",
+        "keywords": [
+          "computer",
+          "phone",
+          "internet",
+          "website",
+          "social media",
+          "email",
+          "online profile"
+        ]
+      },
+      {
+        "element_id": "ITA_S66D_E2",
+        "description": "Cheating (deceptive inducement of victim)",
+        "keywords": [
+          "cheated",
+          "deceived",
+          "tricked",
+          "fraudulent inducement",
+          "scammed"
+        ]
+      },
+      {
+        "element_id": "ITA_S66D_E3",
+        "description": "Personation (falsely representing oneself as another person real or imaginary)",
+        "keywords": [
+          "pretended to be",
+          "fake account",
+          "impersonated",
+          "fake profile",
+          "posed as",
+          "personating"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": null,
+    "penalty_text": "Imprisonment of either description for a term which may extend to three years and shall also be liable to fine which may extend to one lakh rupees.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1999",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-12T00:00:00Z",
+    "effective_from": "2009-10-27",
+    "effective_to": null,
+    "version_label": "Inserted by Act No. 10 of 2009",
+    "source_document_identifier": "Act No. 10 of 2009"
+  },
+  {
+    "id": "ITA_2000_S66E",
+    "jurisdiction": "India",
+    "act_name": "Information Technology Act, 2000",
+    "section_id": "Section 66E",
+    "title": "Punishment for violation of privacy",
+    "source_text": "Whoever, intentionally or knowingly captures, publishes or transmits the image of a private area of any person without his or her consent, under circumstances violating the privacy of that person, shall be punished with imprisonment which may extend to three years or with fine not exceeding two lakh rupees, or with both.",
+    "plain_language_summary": "Taking, publishing, or sharing photos or videos of someone's private body parts without their consent in places where they expected privacy.",
+    "legal_elements": [
+      {
+        "element_id": "ITA_S66E_E1",
+        "description": "Capturing, publishing, or transmitting the image of a private area",
+        "keywords": [
+          "captured",
+          "photographed",
+          "recorded",
+          "published",
+          "transmitted",
+          "shared",
+          "private area",
+          "naked",
+          "intimate photos"
+        ]
+      },
+      {
+        "element_id": "ITA_S66E_E2",
+        "description": "Absence of consent from the subject person",
+        "keywords": [
+          "without consent",
+          "without permission",
+          "no consent",
+          "non-consensual"
+        ]
+      },
+      {
+        "element_id": "ITA_S66E_E3",
+        "description": "Circumstances violating privacy committed intentionally or knowingly",
+        "keywords": [
+          "expectation of privacy",
+          "washroom",
+          "private room",
+          "intentionally",
+          "knowingly",
+          "voyeurism"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "'Private area' means the naked or undergarment clad genitals, pubic area, buttocks or female breast under statutory explanation.",
+    "penalty_text": "Imprisonment which may extend to three years, or with fine not exceeding two lakh rupees, or with both.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1999",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-12T00:00:00Z",
+    "effective_from": "2009-10-27",
+    "effective_to": null,
+    "version_label": "Inserted by Act No. 10 of 2009",
+    "source_document_identifier": "Act No. 10 of 2009"
+  },
+  {
+    "id": "ITA_2000_S67",
+    "jurisdiction": "India",
+    "act_name": "Information Technology Act, 2000",
+    "section_id": "Section 67",
+    "title": "Punishment for publishing or transmitting obscene material in electronic form",
+    "source_text": "Whoever publishes or transmits or causes to be published or transmitted in the electronic form, any material which is lascivious or appeals to the prurient interest or if its effect is such as to tend to deprave and corrupt persons who are likely, having regard to all relevant circumstances, to read, see or hear the matter contained or embodied in it, shall be punished on first conviction with imprisonment of either description for a term which may extend to three years and with fine which may extend to five lakh rupees and in the event of second or subsequent conviction with imprisonment of either description for a term which may extend to five years and also with fine which may extend to ten lakh rupees.",
+    "plain_language_summary": "Distributing, uploading, or transmitting obscene or depraving media through digital messages, websites, or social media.",
+    "legal_elements": [
+      {
+        "element_id": "ITA_S67_E1",
+        "description": "Publishing, transmitting, or causing electronic dissemination of material",
+        "keywords": [
+          "published",
+          "transmitted",
+          "uploaded",
+          "circulated",
+          "electronic form",
+          "whatsapp",
+          "internet"
+        ]
+      },
+      {
+        "element_id": "ITA_S67_E2",
+        "description": "Material is lascivious or appeals to prurient interest tending to deprave and corrupt",
+        "keywords": [
+          "obscene",
+          "prurient",
+          "lascivious",
+          "deprave",
+          "corrupt"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Does not extend to publications proved to be justified for the public good in science, literature, art, or learning, or bona fide religious heritage.",
+    "penalty_text": "First conviction: imprisonment up to three years and fine up to five lakh rupees; second or subsequent: imprisonment up to five years and fine up to ten lakh rupees.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1999",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-12T00:00:00Z",
+    "effective_from": "2000-10-17",
+    "effective_to": null,
+    "version_label": "Act No. 21 of 2000 as amended by Act No. 10 of 2009",
+    "source_document_identifier": "Act No. 21 of 2000"
+  },
+  {
+    "id": "ITA_2000_S67A",
+    "jurisdiction": "India",
+    "act_name": "Information Technology Act, 2000",
+    "section_id": "Section 67A",
+    "title": "Punishment for publishing or transmitting of material containing sexually explicit act, etc., in electronic form",
+    "source_text": "Whoever publishes or transmits or causes to be published or transmitted in the electronic form, any material which contains sexually explicit act or conduct shall be punished on first conviction with imprisonment of either description for a term which may extend to five years and with fine which may extend to ten lakh rupees and in the event of second or subsequent conviction with imprisonment of either description for a term which may extend to seven years and also with fine which may extend to ten lakh rupees.",
+    "plain_language_summary": "Publishing, uploading, or circulating digital videos, photos, or media portraying sexually explicit acts or pornographic conduct.",
+    "legal_elements": [
+      {
+        "element_id": "ITA_S67A_E1",
+        "description": "Publishing, transmitting, or causing electronic transmission of material",
+        "keywords": [
+          "published",
+          "transmitted",
+          "uploaded",
+          "circulated",
+          "electronic media"
+        ]
+      },
+      {
+        "element_id": "ITA_S67A_E2",
+        "description": "Material contains sexually explicit act or conduct",
+        "keywords": [
+          "sexually explicit",
+          "sexual act",
+          "pornography",
+          "explicit video"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Proviso excludes bona fide publications in science, literature, art, or ancient monuments/sculptures.",
+    "penalty_text": "First conviction: imprisonment up to five years and fine up to ten lakh rupees; second or subsequent: imprisonment up to seven years and fine up to ten lakh rupees.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1999",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-12T00:00:00Z",
+    "effective_from": "2009-10-27",
+    "effective_to": null,
+    "version_label": "Inserted by Act No. 10 of 2009",
+    "source_document_identifier": "Act No. 10 of 2009"
+  },
+  {
+    "id": "BNS_2023_S318",
+    "jurisdiction": "India",
+    "act_name": "Bharatiya Nyaya Sanhita, 2023",
+    "section_id": "Section 318",
+    "title": "Cheating",
+    "source_text": "A person is said to cheat when they, by deceiving any person, fraudulently or dishonestly induce the person so deceived to deliver any property to any person, or to consent that any person shall retain any property, or intentionally induce the person so deceived to do or omit to do anything which he would not do or omit if he were not so deceived, and which act or omission causes or is likely to cause damage or harm to that person in body, mind, reputation or property. (2) Whoever cheats shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both. (4) Whoever cheats and thereby dishonestly induces the person deceived to deliver any property to any person... shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+    "plain_language_summary": "Deceiving someone to trick them into handing over money, property, or doing something harmful that causes them financial or personal loss.",
+    "legal_elements": [
+      {
+        "element_id": "BNS_S318_E1",
+        "description": "Deception of any person",
+        "keywords": [
+          "deceived",
+          "lied",
+          "misrepresentation",
+          "dishonest claim",
+          "fake promises"
+        ]
+      },
+      {
+        "element_id": "BNS_S318_E2",
+        "description": "Fraudulent or dishonest inducement to deliver property or alter position",
+        "keywords": [
+          "induced to pay",
+          "transferred money",
+          "delivered property",
+          "dishonestly induced"
+        ]
+      },
+      {
+        "element_id": "BNS_S318_E3",
+        "description": "Damage or harm caused to victim in body, mind, reputation, or property",
+        "keywords": [
+          "financial loss",
+          "harm",
+          "damage",
+          "loss of funds"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "A mere breach of contract without dishonest intention at the beginning does not amount to cheating.",
+    "penalty_text": "Simple cheating: imprisonment up to three years, or fine, or both. Aggravated cheating with delivery of property: imprisonment up to seven years and fine.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/20062",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-12T00:00:00Z",
+    "effective_from": "2024-07-01",
+    "effective_to": null,
+    "version_label": "Act No. 45 of 2023 (effective 1 July 2024, replacing IPC Section 415/420)",
+    "source_document_identifier": "Act No. 45 of 2023"
+  },
+  {
+    "id": "BNS_2023_S319",
+    "jurisdiction": "India",
+    "act_name": "Bharatiya Nyaya Sanhita, 2023",
+    "section_id": "Section 319",
+    "title": "Cheating by personation",
+    "source_text": "A person is said to cheat by personation if he cheats by pretending to be some other person, or by knowingly substituting one person for another, or representing that he or any other person is a person other than he or such other person really is. (2) Whoever commits the offence of cheating by personation shall be punished with imprisonment of either description for a term which may extend to five years, or with fine, or with both.",
+    "plain_language_summary": "Cheating someone by pretending to be a different person, substituting someone else, or using a fake real or imaginary identity.",
+    "legal_elements": [
+      {
+        "element_id": "BNS_S319_E1",
+        "description": "Cheating through deception",
+        "keywords": [
+          "cheated",
+          "deceived",
+          "tricked",
+          "fraud"
+        ]
+      },
+      {
+        "element_id": "BNS_S319_E2",
+        "description": "Pretending to be another person or substituting one person for another",
+        "keywords": [
+          "pretended to be",
+          "posed as",
+          "fake identity",
+          "impersonated",
+          "personation",
+          "substituting"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "The offence is committed whether the individual personated is a real or imaginary person under statutory explanation.",
+    "penalty_text": "Imprisonment of either description for a term which may extend to five years, or with fine, or with both.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/20062",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-12T00:00:00Z",
+    "effective_from": "2024-07-01",
+    "effective_to": null,
+    "version_label": "Act No. 45 of 2023 (effective 1 July 2024, replacing IPC Section 416/419)",
+    "source_document_identifier": "Act No. 45 of 2023"
+  },
+  {
+    "id": "BNS_2023_S351",
+    "jurisdiction": "India",
+    "act_name": "Bharatiya Nyaya Sanhita, 2023",
+    "section_id": "Section 351",
+    "title": "Criminal intimidation",
+    "source_text": "Whoever threatens another with any injury to his person, reputation or property, or to the person or reputation of any one in whom that person is interested, with intent to cause alarm to that person, or to cause that person to do any act which he is not legally bound to do, or to omit to do any act which that person is legally entitled to do, as the means of avoiding the execution of such threat, commits criminal intimidation. (2) Whoever commits the offence of criminal intimidation shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",
+    "plain_language_summary": "Threatening to hurt someone, ruin their reputation, or damage their property to frighten them or force them to do or not do something.",
+    "legal_elements": [
+      {
+        "element_id": "BNS_S351_E1",
+        "description": "Threat of injury to person, reputation, or property",
+        "keywords": [
+          "threatened",
+          "threatened to kill",
+          "threatened harm",
+          "ruin reputation",
+          "damage property"
+        ]
+      },
+      {
+        "element_id": "BNS_S351_E2",
+        "description": "Intent to cause alarm or coerce action/omission",
+        "keywords": [
+          "cause alarm",
+          "frightened",
+          "coerced",
+          "forced to act",
+          "extort compliance"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Threatening to take lawful legal proceedings in good faith does not constitute criminal intimidation.",
+    "penalty_text": "Imprisonment of either description for a term which may extend to two years, or with fine, or with both; if threat is of death or grievous hurt, imprisonment up to seven years.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/20062",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-12T00:00:00Z",
+    "effective_from": "2024-07-01",
+    "effective_to": null,
+    "version_label": "Act No. 45 of 2023 (effective 1 July 2024, replacing IPC Section 503/506)",
+    "source_document_identifier": "Act No. 45 of 2023"
+  },
+  {
+    "id": "BNS_2023_S356",
+    "jurisdiction": "India",
+    "act_name": "Bharatiya Nyaya Sanhita, 2023",
+    "section_id": "Section 356",
+    "title": "Defamation",
+    "source_text": "Whoever, by words either spoken or intended to be read, or by signs or by visible representations, makes or publishes any imputation concerning any person intending to harm, or knowing or having reason to believe that such imputation will harm, the reputation of such person, is said, except in the cases hereinafter excepted, to defame that person. (2) Whoever defames another shall be punished with simple imprisonment for a term which may extend to two years, or with fine, or with both, or with community service.",
+    "plain_language_summary": "Making or publishing false statements or accusations about someone with the intent or knowledge that it will harm their reputation.",
+    "legal_elements": [
+      {
+        "element_id": "BNS_S356_E1",
+        "description": "Making or publishing an imputation by spoken/written words, signs, or representations",
+        "keywords": [
+          "published",
+          "said",
+          "wrote",
+          "posted",
+          "shared imputation",
+          "accusation"
+        ]
+      },
+      {
+        "element_id": "BNS_S356_E2",
+        "description": "Imputation directly concerns the complainant or identifiable person",
+        "keywords": [
+          "concerning victim",
+          "named individual",
+          "targeted reputation"
+        ]
+      },
+      {
+        "element_id": "BNS_S356_E3",
+        "description": "Intent to harm reputation or knowledge that imputation will harm reputation",
+        "keywords": [
+          "harm reputation",
+          "defame",
+          "tarnish",
+          "malign",
+          "bad reputation"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Subject to statutory exceptions including truth published for the public good, fair criticism of public conduct, and reports of judicial proceedings.",
+    "penalty_text": "Simple imprisonment for a term which may extend to two years, or with fine, or with both, or with community service.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/20062",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-12T00:00:00Z",
+    "effective_from": "2024-07-01",
+    "effective_to": null,
+    "version_label": "Act No. 45 of 2023 (effective 1 July 2024, replacing IPC Section 499/500)",
+    "source_document_identifier": "Act No. 45 of 2023"
+  },
+  {
+    "id": "BNS_2023_S78",
+    "jurisdiction": "India",
+    "act_name": "Bharatiya Nyaya Sanhita, 2023",
+    "section_id": "Section 78",
+    "title": "Stalking",
+    "source_text": "Any man who— (i) follows a woman and contacts, or attempts to contact such woman to foster personal interaction repeatedly despite a clear indication of disinterest by such woman; or (ii) monitors the use by a woman of the internet, email or any other form of electronic communication, commits the offence of stalking. (2) Whoever commits the offence of stalking shall be punished on first conviction with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine; and be punished on a second or subsequent conviction, with imprisonment of either description for a term which may extend to five years, and shall also be liable to fine.",
+    "plain_language_summary": "A man persistently following or messaging a woman who expressed disinterest, or secretly tracking her online activities, email, or digital devices.",
+    "legal_elements": [
+      {
+        "element_id": "BNS_S78_E1",
+        "description": "Perpetrator is a man and targeted victim is a woman",
+        "keywords": [
+          "man",
+          "woman",
+          "gender requirement"
+        ]
+      },
+      {
+        "element_id": "BNS_S78_E2",
+        "description": "Following/contacting repeatedly despite clear disinterest OR monitoring electronic communications",
+        "keywords": [
+          "followed",
+          "repeatedly called",
+          "messaged repeatedly",
+          "clear disinterest",
+          "monitored internet",
+          "tracked email",
+          "stalking"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Does not apply if pursued for detecting or preventing crime under authorized duty, or pursued under lawful authority, or reasonable in the circumstances.",
+    "penalty_text": "First conviction: imprisonment up to three years and fine; second or subsequent conviction: imprisonment up to five years and fine.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/20062",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-12T00:00:00Z",
+    "effective_from": "2024-07-01",
+    "effective_to": null,
+    "version_label": "Act No. 45 of 2023 (effective 1 July 2024, replacing IPC Section 354D)",
+    "source_document_identifier": "Act No. 45 of 2023"
+  },
+  {
+    "id": "BNS_2023_S308",
+    "jurisdiction": "India",
+    "act_name": "Bharatiya Nyaya Sanhita, 2023",
+    "section_id": "Section 308",
+    "title": "Extortion",
+    "source_text": "Whoever intentionally puts any person in fear of any injury to that person, or to any other, and thereby dishonestly induces the person so put in fear to deliver to any person any property, or valuable security or anything signed or sealed which may be converted into a valuable security, commits extortion. (2) Whoever commits extortion shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both.",
+    "plain_language_summary": "Frightening someone with threats of injury, exposure, or harm to compel them to hand over money, digital funds, or valuable property.",
+    "legal_elements": [
+      {
+        "element_id": "BNS_S308_E1",
+        "description": "Intentionally putting a person in fear of injury",
+        "keywords": [
+          "put in fear",
+          "threatened harm",
+          "blackmailed",
+          "leak photos unless paid",
+          "demanded money under threat"
+        ]
+      },
+      {
+        "element_id": "BNS_S308_E2",
+        "description": "Dishonest inducement to deliver property or valuable security",
+        "keywords": [
+          "demanded money",
+          "forced to deliver",
+          "extorted funds",
+          "transferred cash"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Requires that the delivery of property be induced by the fear created by the perpetrator.",
+    "penalty_text": "Imprisonment of either description for a term which may extend to seven years, or with fine, or with both.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/20062",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-12T00:00:00Z",
+    "effective_from": "2024-07-01",
+    "effective_to": null,
+    "version_label": "Act No. 45 of 2023 (effective 1 July 2024, replacing IPC Section 383/384)",
+    "source_document_identifier": "Act No. 45 of 2023"
+  },
+  {
+    "id": "BNS_2023_S303",
+    "jurisdiction": "India",
+    "act_name": "Bharatiya Nyaya Sanhita, 2023",
+    "section_id": "Section 303",
+    "title": "Theft",
+    "source_text": "Whoever, intending to take dishonestly any movable property out of the possession of any person without that person's consent, moves that property in order to such taking, is said to commit theft. (2) Whoever commits theft shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+    "plain_language_summary": "Taking someone's movable physical property without their permission with the dishonest intention of keeping it.",
+    "legal_elements": [
+      {
+        "element_id": "BNS_S303_E1",
+        "description": "Dishonest intention to take movable property",
+        "keywords": [
+          "dishonestly took",
+          "stole",
+          "took away",
+          "movable property"
+        ]
+      },
+      {
+        "element_id": "BNS_S303_E2",
+        "description": "Property taken out of possession of another person without consent",
+        "keywords": [
+          "out of possession",
+          "without consent",
+          "without permission",
+          "no consent"
+        ]
+      },
+      {
+        "element_id": "BNS_S303_E3",
+        "description": "Moving the property in order to complete the taking",
+        "keywords": [
+          "moved property",
+          "carried away",
+          "removed"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Property must be movable. Sub-section (2) proviso provides community service for first-time theft where value of stolen property is less than five thousand rupees and property is returned.",
+    "penalty_text": "Imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/20062",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-12T00:00:00Z",
+    "effective_from": "2024-07-01",
+    "effective_to": null,
+    "version_label": "Act No. 45 of 2023 (effective 1 July 2024, replacing IPC Section 378/379)",
+    "source_document_identifier": "Act No. 45 of 2023"
+  },
+  {
+    "id": "IPC_1860_S420",
+    "jurisdiction": "India",
+    "act_name": "Indian Penal Code, 1860",
+    "section_id": "Section 420",
+    "title": "Cheating and dishonestly inducing delivery of property (Historical benchmark)",
+    "source_text": "Whoever cheats and thereby dishonestly induces the person deceived to deliver any property to any person, or to make, alter or destroy the whole or any part of a valuable security, or anything which is signed or sealed, and which is capable of being converted into a valuable security, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+    "plain_language_summary": "Historical offence of cheating someone and dishonestly inducing them to deliver money or property (governs offences committed prior to 1 July 2024).",
+    "legal_elements": [
+      {
+        "element_id": "IPC_S420_E1",
+        "description": "Cheating by fraudulent deception",
+        "keywords": [
+          "cheated",
+          "deceived",
+          "lied",
+          "fraudulent inducement"
+        ]
+      },
+      {
+        "element_id": "IPC_S420_E2",
+        "description": "Dishonestly inducing delivery of property or alteration of valuable security",
+        "keywords": [
+          "induced to deliver",
+          "paid funds",
+          "delivered property",
+          "signed security"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Repealed by BNS 2023 w.e.f. 1 July 2024; retained under transitional provisions for offenses committed on or before 30 June 2024.",
+    "penalty_text": "Imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/2263",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-12T00:00:00Z",
+    "effective_from": "1862-01-01",
+    "effective_to": "2024-06-30",
+    "version_label": "Act No. 45 of 1860 (repealed w.e.f. 1 July 2024; applies to pre-July 2024 acts)",
+    "source_document_identifier": "Act No. 45 of 1860"
+  },
+  {
+    "id": "IPC_1860_S419",
+    "jurisdiction": "India",
+    "act_name": "Indian Penal Code, 1860",
+    "section_id": "Section 419",
+    "title": "Punishment for cheating by personation (Historical benchmark)",
+    "source_text": "Whoever cheats by personation shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+    "plain_language_summary": "Historical offence of cheating by pretending to be someone else (governs offences committed prior to 1 July 2024).",
+    "legal_elements": [
+      {
+        "element_id": "IPC_S419_E1",
+        "description": "Cheating by intentional deception",
+        "keywords": [
+          "cheated",
+          "deceived",
+          "fraud"
+        ]
+      },
+      {
+        "element_id": "IPC_S419_E2",
+        "description": "Personation (falsely representing oneself as another person real or imaginary)",
+        "keywords": [
+          "pretended to be",
+          "posed as",
+          "impersonated",
+          "personation",
+          "fake identity"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Repealed by BNS 2023 w.e.f. 1 July 2024; applies to incidents committed on or before 30 June 2024.",
+    "penalty_text": "Imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/2263",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-12T00:00:00Z",
+    "effective_from": "1862-01-01",
+    "effective_to": "2024-06-30",
+    "version_label": "Act No. 45 of 1860 (repealed w.e.f. 1 July 2024; applies to pre-July 2024 acts)",
+    "source_document_identifier": "Act No. 45 of 1860"
+  },
+  {
+    "id": "IPC_1860_S506",
+    "jurisdiction": "India",
+    "act_name": "Indian Penal Code, 1860",
+    "section_id": "Section 506",
+    "title": "Punishment for criminal intimidation (Historical benchmark)",
+    "source_text": "Whoever commits the offence of criminal intimidation shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both; and if the threat be to cause death or grievous hurt, or to cause the destruction of any property by fire, or to cause an offence punishable with death or imprisonment for life, or with imprisonment for a term which may extend to seven years, or to impute unchastity to a woman, shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both.",
+    "plain_language_summary": "Historical offence of threatening injury, death, property damage, or defamation (governs offences committed prior to 1 July 2024).",
+    "legal_elements": [
+      {
+        "element_id": "IPC_S506_E1",
+        "description": "Threat of injury to person, reputation, or property",
+        "keywords": [
+          "threatened",
+          "threatened harm",
+          "threatened to kill",
+          "damage property"
+        ]
+      },
+      {
+        "element_id": "IPC_S506_E2",
+        "description": "Intent to cause alarm or compel an act or omission",
+        "keywords": [
+          "cause alarm",
+          "frightened",
+          "coerced",
+          "compelled"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Repealed by BNS 2023 w.e.f. 1 July 2024; applies to incidents committed on or before 30 June 2024.",
+    "penalty_text": "Imprisonment of either description for a term which may extend to two years, or with fine, or with both; if threat is of death or grievous hurt, up to seven years.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/2263",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-12T00:00:00Z",
+    "effective_from": "1862-01-01",
+    "effective_to": "2024-06-30",
+    "version_label": "Act No. 45 of 1860 (repealed w.e.f. 1 July 2024; applies to pre-July 2024 acts)",
+    "source_document_identifier": "Act No. 45 of 1860"
+  },
+  {
+    "id": "IPC_1860_S500",
+    "jurisdiction": "India",
+    "act_name": "Indian Penal Code, 1860",
+    "section_id": "Section 500",
+    "title": "Punishment for defamation (Historical benchmark)",
+    "source_text": "Whoever defames another shall be punished with simple imprisonment for a term which may extend to two years, or with fine, or with both.",
+    "plain_language_summary": "Historical punishment for defaming someone by publishing defamatory statements (governs offences committed prior to 1 July 2024).",
+    "legal_elements": [
+      {
+        "element_id": "IPC_S500_E1",
+        "description": "Making or publishing defamatory imputation",
+        "keywords": [
+          "published defamation",
+          "defamatory imputation",
+          "false claim",
+          "slander"
+        ]
+      },
+      {
+        "element_id": "IPC_S500_E2",
+        "description": "Intent to harm reputation or knowledge of harm",
+        "keywords": [
+          "harm reputation",
+          "defame",
+          "tarnish",
+          "malign"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Subject to the ten statutory exceptions under IPC Section 499. Repealed by BNS 2023 w.e.f. 1 July 2024.",
+    "penalty_text": "Simple imprisonment for a term which may extend to two years, or with fine, or with both.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/2263",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-12T00:00:00Z",
+    "effective_from": "1862-01-01",
+    "effective_to": "2024-06-30",
+    "version_label": "Act No. 45 of 1860 (repealed w.e.f. 1 July 2024; applies to pre-July 2024 acts)",
+    "source_document_identifier": "Act No. 45 of 1860"
+  },
+  {
+    "id": "IPC_1860_S354D",
+    "jurisdiction": "India",
+    "act_name": "Indian Penal Code, 1860",
+    "section_id": "Section 354D",
+    "title": "Stalking (Historical benchmark)",
+    "source_text": "Any man who— (i) follows a woman and contacts, or attempts to contact such woman to foster personal interaction repeatedly despite a clear indication of disinterest by such woman; or (ii) monitors the use by a woman of the internet, email or any other form of electronic communication, commits the offence of stalking.",
+    "plain_language_summary": "Historical offence of a man repeatedly following, contacting, or electronically monitoring a woman despite clear disinterest (governs acts from 3 Feb 2013 to 30 June 2024).",
+    "legal_elements": [
+      {
+        "element_id": "IPC_S354D_E1",
+        "description": "Man repeatedly following/contacting a woman despite clear indication of disinterest",
+        "keywords": [
+          "followed",
+          "repeated contact",
+          "disinterest",
+          "stalking",
+          "unwanted contact"
+        ]
+      },
+      {
+        "element_id": "IPC_S354D_E2",
+        "description": "Or monitoring internet, email, or electronic communication",
+        "keywords": [
+          "monitored internet",
+          "tracked email",
+          "cyberstalking",
+          "electronic communication"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Repealed by BNS 2023 w.e.f. 1 July 2024; applies to incidents committed on or before 30 June 2024.",
+    "penalty_text": "First conviction: imprisonment up to three years and fine; second or subsequent: imprisonment up to five years and fine.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/2263",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-12T00:00:00Z",
+    "effective_from": "2013-02-03",
+    "effective_to": "2024-06-30",
+    "version_label": "Inserted by Act No. 13 of 2013 (repealed w.e.f. 1 July 2024)",
+    "source_document_identifier": "Act No. 13 of 2013"
+  },
+  {
+    "id": "DPDP_2023_S33_PROVISIONAL",
+    "jurisdiction": "India",
+    "act_name": "Digital Personal Data Protection Act, 2023",
+    "section_id": "Section 33",
+    "title": "Penalties",
+    "source_text": "(1) If the Board determines on conclusion of an inquiry that breach of the provisions of this Act or the rules made thereunder by a person is significant, it may, after giving the person an opportunity of being heard, impose such monetary penalty specified in the Schedule.",
+    "plain_language_summary": "Imposition of monetary penalties by the Data Protection Board following an inquiry for significant breach of the provisions of the Act or rules.",
+    "legal_elements": [
+      {
+        "element_id": "DPDP_S33_E1",
+        "description": "Significant breach of provisions of the Act or rules by a person",
+        "keywords": [
+          "data breach",
+          "personal data",
+          "data fiduciary",
+          "leak of private data"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Scheduled commencement: Notification G.S.R. 843(E) dated 13 November 2025 already specifies the phased commencement schedule appointing 18 months from publication (13 May 2027) as the scheduled commencement date for Sections 28-34, subject to any subsequent legal change. The Data Protection Board of India was established via G.S.R. 844(E) dated 13 November 2025. As of 15 October 2026, Section 33 is not yet in force. Audit fixture note: Retained with source_verified=false because detailed procedural inquiry guidelines and penalty adjudication standards have not been independently validated; statutory penalty display is suppressed by the system.",
+    "penalty_text": "Monetary penalty specified in the Schedule, which may extend up to two hundred and fifty crore rupees for significant breaches under Section 8(5).",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/21415",
+    "source_authority": "Ministry of Electronics and Information Technology, Government of India / Legislative Department, Ministry of Law and Justice",
+    "source_verified": false,
+    "verified_at": null,
+    "effective_from": null,
+    "effective_to": null,
+    "version_label": "Act No. 22 of 2023 (Commencement scheduled for 13 May 2027 via G.S.R. 843(E); Board established via G.S.R. 844(E); unverified audit fixture)",
+    "source_document_identifier": "Gazette Notifications G.S.R. 843(E) and G.S.R. 844(E) (13 November 2025)"
+  },
+  {
+    "id": "IPC_1860_S384",
+    "jurisdiction": "India",
+    "act_name": "Indian Penal Code, 1860",
+    "section_id": "Section 384",
+    "title": "Punishment for extortion (Historical benchmark)",
+    "source_text": "Whoever commits extortion shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+    "plain_language_summary": "Historical offence of extortion by putting someone in fear of injury to dishonestly induce delivery of money, property, or valuable security (governs conduct on or before 30 June 2024).",
+    "legal_elements": [
+      {
+        "element_id": "IPC_S384_E1",
+        "description": "Intentionally putting any person in fear of injury to that person or another",
+        "keywords": [
+          "put in fear",
+          "threatened injury",
+          "threatened harm",
+          "blackmail",
+          "extorted"
+        ]
+      },
+      {
+        "element_id": "IPC_S384_E2",
+        "description": "Dishonestly inducing the person so put in fear to deliver property or valuable security",
+        "keywords": [
+          "demanded money",
+          "forced to deliver",
+          "extorted funds",
+          "transferred cash",
+          "valuable security"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Repealed by BNS 2023 w.e.f. 1 July 2024; retained under Section 358 BNS savings and Article 20(1) for offenses committed on or before 30 June 2024. Maximum penalty under IPC is 3 years, compared to 7 years under BNS Section 308(2).",
+    "penalty_text": "Imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/2263",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-16T00:00:00Z",
+    "effective_from": "1862-01-01",
+    "effective_to": "2024-06-30",
+    "version_label": "Act No. 45 of 1860 (repealed w.e.f. 1 July 2024; applies to pre-July 2024 acts under Section 358 BNS)",
+    "source_document_identifier": "Act No. 45 of 1860"
+  },
+  {
+    "id": "IPC_1860_S379",
+    "jurisdiction": "India",
+    "act_name": "Indian Penal Code, 1860",
+    "section_id": "Section 379",
+    "title": "Punishment for theft (Historical benchmark)",
+    "source_text": "Whoever commits theft shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+    "plain_language_summary": "Historical offence of dishonestly taking movable property out of the possession of any person without consent (governs conduct on or before 30 June 2024).",
+    "legal_elements": [
+      {
+        "element_id": "IPC_S379_E1",
+        "description": "Dishonest intention to take movable property",
+        "keywords": [
+          "dishonestly took",
+          "stole",
+          "took away",
+          "movable property",
+          "theft"
+        ]
+      },
+      {
+        "element_id": "IPC_S379_E2",
+        "description": "Taking property out of possession of another person without consent",
+        "keywords": [
+          "out of possession",
+          "without consent",
+          "without permission",
+          "no consent"
+        ]
+      },
+      {
+        "element_id": "IPC_S379_E3",
+        "description": "Moving that property in order to effect such taking",
+        "keywords": [
+          "moved property",
+          "carried away",
+          "removed",
+          "displaced"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Repealed by BNS 2023 w.e.f. 1 July 2024; retained under Section 358 BNS savings for offenses on or before 30 June 2024. IPC 379 did not provide community service for petty theft, which was newly introduced in BNS Section 303(2).",
+    "penalty_text": "Imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/2263",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-16T00:00:00Z",
+    "effective_from": "1862-01-01",
+    "effective_to": "2024-06-30",
+    "version_label": "Act No. 45 of 1860 (repealed w.e.f. 1 July 2024; applies to pre-July 2024 acts under Section 358 BNS)",
+    "source_document_identifier": "Act No. 45 of 1860"
+  },
+  {
+    "id": "BNS_2023_S336",
+    "jurisdiction": "India",
+    "act_name": "Bharatiya Nyaya Sanhita, 2023",
+    "section_id": "Section 336",
+    "title": "Forgery",
+    "source_text": "(1) Whoever makes any false document or false electronic record or part of a document or electronic record, with intent to cause damage or injury, to the public or to any person, or to support any claim or title, or to cause any person to part with property, or to enter into any express or implied contract, or with intent to commit fraud or that fraud may be committed, commits forgery. (2) Whoever commits forgery shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both. (3) Whoever commits forgery, intending that the document or electronic record forged shall be used for the purpose of cheating, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+    "plain_language_summary": "Fabricating, altering, or falsifying a document, digital file, electronic signature, or record with intent to deceive, commit fraud, or cheat someone out of property.",
+    "legal_elements": [
+      {
+        "element_id": "BNS_S336_E1",
+        "description": "Making a false document or false electronic record or part thereof",
+        "keywords": [
+          "forged document",
+          "fake certificate",
+          "false electronic record",
+          "fabricated agreement",
+          "counterfeit signature",
+          "altered pdf"
+        ]
+      },
+      {
+        "element_id": "BNS_S336_E2",
+        "description": "Intent to cause damage, support claim, induce parting with property, or commit fraud",
+        "keywords": [
+          "fraudulent intent",
+          "part with property",
+          "support false claim",
+          "commit fraud",
+          "forged to cheat"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Sub-section (3) provides enhanced punishment of up to 7 years when forgery is committed for the specific purpose of cheating (corresponding to old IPC Section 468).",
+    "penalty_text": "General forgery: imprisonment up to two years, or fine, or both. Forgery for purpose of cheating: imprisonment up to seven years and fine.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/20062",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-16T00:00:00Z",
+    "effective_from": "2024-07-01",
+    "effective_to": null,
+    "version_label": "Act No. 45 of 2023 (effective 1 July 2024, replacing IPC Sections 463, 465, and 468)",
+    "source_document_identifier": "Act No. 45 of 2023"
+  },
+  {
+    "id": "IPC_1860_S465",
+    "jurisdiction": "India",
+    "act_name": "Indian Penal Code, 1860",
+    "section_id": "Section 465",
+    "title": "Punishment for forgery (Historical benchmark)",
+    "source_text": "Whoever commits forgery shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",
+    "plain_language_summary": "Historical offence of forging a document or electronic record (governs conduct on or before 30 June 2024).",
+    "legal_elements": [
+      {
+        "element_id": "IPC_S465_E1",
+        "description": "Commission of forgery by making a false document or electronic record",
+        "keywords": [
+          "forged document",
+          "false document",
+          "electronic record forgery",
+          "counterfeited"
+        ]
+      },
+      {
+        "element_id": "IPC_S465_E2",
+        "description": "Intent to cause damage, support claim, or commit fraud",
+        "keywords": [
+          "fraudulent intent",
+          "cause injury",
+          "deceive",
+          "support claim"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Repealed by BNS 2023 w.e.f. 1 July 2024; retained under Section 358 BNS for pre-July 2024 conduct. Replaced by Section 336(2) of BNS 2023.",
+    "penalty_text": "Imprisonment of either description for a term which may extend to two years, or with fine, or with both.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/2263",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-16T00:00:00Z",
+    "effective_from": "1862-01-01",
+    "effective_to": "2024-06-30",
+    "version_label": "Act No. 45 of 1860 as amended (repealed w.e.f. 1 July 2024; applies to pre-July 2024 acts)",
+    "source_document_identifier": "Act No. 45 of 1860"
+  },
+  {
+    "id": "IPC_1860_S468",
+    "jurisdiction": "India",
+    "act_name": "Indian Penal Code, 1860",
+    "section_id": "Section 468",
+    "title": "Forgery for purpose of cheating (Historical benchmark)",
+    "source_text": "Whoever commits forgery, intending that the document or electronic record forged shall be used for the purpose of cheating, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+    "plain_language_summary": "Historical offence of forging a document or digital record specifically for use in cheating someone (governs conduct on or before 30 June 2024).",
+    "legal_elements": [
+      {
+        "element_id": "IPC_S468_E1",
+        "description": "Commission of forgery of a document or electronic record",
+        "keywords": [
+          "forged document",
+          "forged invoice",
+          "fake bank receipt",
+          "fabricated digital record"
+        ]
+      },
+      {
+        "element_id": "IPC_S468_E2",
+        "description": "Specific intention that the forged document or record shall be used for cheating",
+        "keywords": [
+          "used for cheating",
+          "intent to cheat",
+          "swindle funds",
+          "deceive victim for money"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Repealed by BNS 2023 w.e.f. 1 July 2024; retained under Section 358 BNS for pre-July 2024 conduct. Replaced by Section 336(3) of BNS 2023.",
+    "penalty_text": "Imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/2263",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-16T00:00:00Z",
+    "effective_from": "1862-01-01",
+    "effective_to": "2024-06-30",
+    "version_label": "Act No. 45 of 1860 as amended by Act No. 21 of 2000 (repealed w.e.f. 1 July 2024)",
+    "source_document_identifier": "Act No. 45 of 1860"
+  },
+  {
+    "id": "BNS_2023_S340",
+    "jurisdiction": "India",
+    "act_name": "Bharatiya Nyaya Sanhita, 2023",
+    "section_id": "Section 340",
+    "title": "Forged document or electronic record and using it as genuine",
+    "source_text": "(1) A false document or electronic record made wholly or in part by forgery is designated a forged document or electronic record. (2) Whoever fraudulently or dishonestly uses as genuine any document or electronic record which he knows or has reason to believe to be a forged document or electronic record, shall be punished in the same manner as if he had forged such document or electronic record.",
+    "plain_language_summary": "Knowingly, fraudulently, or dishonestly using or submitting a forged document, digital file, or record as if it were genuine.",
+    "legal_elements": [
+      {
+        "element_id": "BNS_S340_E1",
+        "description": "Document or electronic record is forged wholly or in part",
+        "keywords": [
+          "forged document",
+          "counterfeit certificate",
+          "fake agreement",
+          "altered electronic record"
+        ]
+      },
+      {
+        "element_id": "BNS_S340_E2",
+        "description": "Fraudulently or dishonestly using such document or record as genuine with knowledge or reason to believe it is forged",
+        "keywords": [
+          "used as genuine",
+          "submitted fake document",
+          "presented forged record",
+          "knowing it was fake"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Applies even if the user did not forge the document themselves, provided they use it dishonestly knowing or having reason to believe it is forged.",
+    "penalty_text": "Punished in the same manner as if the offender had forged such document or electronic record.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/20062",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-16T00:00:00Z",
+    "effective_from": "2024-07-01",
+    "effective_to": null,
+    "version_label": "Act No. 45 of 2023 (effective 1 July 2024, replacing IPC Section 471)",
+    "source_document_identifier": "Act No. 45 of 2023"
+  },
+  {
+    "id": "IPC_1860_S471",
+    "jurisdiction": "India",
+    "act_name": "Indian Penal Code, 1860",
+    "section_id": "Section 471",
+    "title": "Using as genuine a forged document or electronic record (Historical benchmark)",
+    "source_text": "Whoever fraudulently or dishonestly uses as genuine any document or electronic record which he knows or has reason to believe to be a forged document or electronic record, shall be punished in the same manner as if he had forged such document or electronic record.",
+    "plain_language_summary": "Historical offence of dishonestly submitting or using a forged document or digital record knowing it is fake (governs conduct on or before 30 June 2024).",
+    "legal_elements": [
+      {
+        "element_id": "IPC_S471_E1",
+        "description": "Document or electronic record is forged",
+        "keywords": [
+          "forged document",
+          "fake certificate",
+          "counterfeited record"
+        ]
+      },
+      {
+        "element_id": "IPC_S471_E2",
+        "description": "Fraudulent or dishonest use as genuine with knowledge or reason to believe it is forged",
+        "keywords": [
+          "submitted as real",
+          "used as genuine",
+          "fraudulently presented",
+          "knowing forged"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Repealed by BNS 2023 w.e.f. 1 July 2024; retained under Section 358 BNS for pre-July 2024 conduct. Replaced by Section 340 of BNS 2023.",
+    "penalty_text": "Punished in the same manner as if the offender had forged such document or electronic record.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/2263",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-16T00:00:00Z",
+    "effective_from": "1862-01-01",
+    "effective_to": "2024-06-30",
+    "version_label": "Act No. 45 of 1860 as amended by Act No. 21 of 2000 (repealed w.e.f. 1 July 2024)",
+    "source_document_identifier": "Act No. 45 of 1860"
+  },
+  {
+    "id": "BNS_2023_S316",
+    "jurisdiction": "India",
+    "act_name": "Bharatiya Nyaya Sanhita, 2023",
+    "section_id": "Section 316",
+    "title": "Criminal breach of trust",
+    "source_text": "(1) Whoever, being in any manner entrusted with property, or with any dominion over property, dishonestly misappropriates or converts to his own use that property, or dishonestly uses or disposes of that property in violation of any direction of law prescribing the mode in which such trust is to be discharged, or of any legal contract, express or implied, which he has made touching the discharge of such trust, or wilfully suffers any other person so to do, commits criminal breach of trust. (2) Whoever commits criminal breach of trust shall be punished with imprisonment of either description for a term which may extend to five years, or with fine, or with both.",
+    "plain_language_summary": "Dishonestly misusing, keeping, or stealing money, digital funds, property, or assets that were entrusted to your care, employment, or custody.",
+    "legal_elements": [
+      {
+        "element_id": "BNS_S316_E1",
+        "description": "Entrustment with property or dominion over property",
+        "keywords": [
+          "entrusted with funds",
+          "custody of assets",
+          "held in trust",
+          "company funds",
+          "fiduciary duty"
+        ]
+      },
+      {
+        "element_id": "BNS_S316_E2",
+        "description": "Dishonest misappropriation, conversion to own use, or disposal in violation of legal contract or law",
+        "keywords": [
+          "misappropriated",
+          "siphoned off",
+          "converted to own use",
+          "embezzled",
+          "violated contract"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Sub-section (2) increases general punishment to 5 years (under IPC 406 it was 3 years). Sub-sections (3)-(5) provide enhanced penalties for carriers, clerks/servants, and bankers/agents/public servants.",
+    "penalty_text": "Imprisonment of either description for a term which may extend to five years, or with fine, or with both.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/20062",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-16T00:00:00Z",
+    "effective_from": "2024-07-01",
+    "effective_to": null,
+    "version_label": "Act No. 45 of 2023 (effective 1 July 2024, replacing IPC Sections 405, 406, 407, 408, and 409)",
+    "source_document_identifier": "Act No. 45 of 2023"
+  },
+  {
+    "id": "IPC_1860_S406",
+    "jurisdiction": "India",
+    "act_name": "Indian Penal Code, 1860",
+    "section_id": "Section 406",
+    "title": "Punishment for criminal breach of trust (Historical benchmark)",
+    "source_text": "Whoever commits criminal breach of trust shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+    "plain_language_summary": "Historical offence of dishonestly misappropriating property entrusted to one's care (governs conduct on or before 30 June 2024).",
+    "legal_elements": [
+      {
+        "element_id": "IPC_S406_E1",
+        "description": "Entrustment of property or dominion over property",
+        "keywords": [
+          "entrusted with property",
+          "given custody",
+          "company funds",
+          "held in trust"
+        ]
+      },
+      {
+        "element_id": "IPC_S406_E2",
+        "description": "Dishonest misappropriation or conversion to own use",
+        "keywords": [
+          "dishonestly misappropriated",
+          "embezzled",
+          "siphoned",
+          "converted to own use"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Repealed by BNS 2023 w.e.f. 1 July 2024; retained under Section 358 BNS for pre-July 2024 conduct. Replaced by Section 316(2) of BNS 2023.",
+    "penalty_text": "Imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/2263",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-16T00:00:00Z",
+    "effective_from": "1862-01-01",
+    "effective_to": "2024-06-30",
+    "version_label": "Act No. 45 of 1860 (repealed w.e.f. 1 July 2024; applies to pre-July 2024 acts)",
+    "source_document_identifier": "Act No. 45 of 1860"
+  },
+  {
+    "id": "BNS_2023_S324",
+    "jurisdiction": "India",
+    "act_name": "Bharatiya Nyaya Sanhita, 2023",
+    "section_id": "Section 324",
+    "title": "Mischief",
+    "source_text": "(1) Whoever, with intent to cause, or knowing that he is likely to cause, wrongful loss or damage to the public or to any person, causes the destruction of any property, or any such change in any property or in the situation thereof as destroys or diminishes its value or utility, or affects it injuriously, commits mischief. (2) Whoever commits mischief shall be punished with imprisonment of either description for a term which may extend to six months, or with fine, or with both.",
+    "plain_language_summary": "Intentionally or knowingly damaging, destroying, tampering with, or sabotaging physical or digital property, causing loss or reduced usefulness.",
+    "legal_elements": [
+      {
+        "element_id": "BNS_S324_E1",
+        "description": "Intent to cause, or knowledge of likelihood of causing, wrongful loss or damage",
+        "keywords": [
+          "intent to damage",
+          "sabotaged",
+          "caused destruction",
+          "wrongful damage"
+        ]
+      },
+      {
+        "element_id": "BNS_S324_E2",
+        "description": "Destruction of property or change diminishing its value or utility",
+        "keywords": [
+          "destroyed property",
+          "smashed device",
+          "deleted data",
+          "diminished value",
+          "rendered unusable"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Sub-section (2) doubles basic punishment to six months (under IPC 426 it was three months). Sub-sections (3)-(6) introduce graded monetary thresholds and severe penalties for damage to public or infrastructure property.",
+    "penalty_text": "Imprisonment of either description for a term which may extend to six months, or with fine, or with both.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/20062",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-16T00:00:00Z",
+    "effective_from": "2024-07-01",
+    "effective_to": null,
+    "version_label": "Act No. 45 of 2023 (effective 1 July 2024, replacing IPC Sections 425, 426, and 427)",
+    "source_document_identifier": "Act No. 45 of 2023"
+  },
+  {
+    "id": "IPC_1860_S426",
+    "jurisdiction": "India",
+    "act_name": "Indian Penal Code, 1860",
+    "section_id": "Section 426",
+    "title": "Punishment for mischief (Historical benchmark)",
+    "source_text": "Whoever commits mischief shall be punished with imprisonment of either description for a term which may extend to three months, or with fine, or with both.",
+    "plain_language_summary": "Historical offence of intentionally damaging property causing wrongful loss (governs conduct on or before 30 June 2024).",
+    "legal_elements": [
+      {
+        "element_id": "IPC_S426_E1",
+        "description": "Intent or knowledge of causing wrongful loss or damage to property",
+        "keywords": [
+          "damaged property",
+          "sabotaged",
+          "wrongful damage",
+          "intent to cause loss"
+        ]
+      },
+      {
+        "element_id": "IPC_S426_E2",
+        "description": "Destruction or change diminishing value or utility",
+        "keywords": [
+          "diminished utility",
+          "destroyed item",
+          "damaged asset"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Repealed by BNS 2023 w.e.f. 1 July 2024; retained under Section 358 BNS for pre-July 2024 conduct. Replaced by Section 324(2) of BNS 2023.",
+    "penalty_text": "Imprisonment of either description for a term which may extend to three months, or with fine, or with both.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/2263",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-16T00:00:00Z",
+    "effective_from": "1862-01-01",
+    "effective_to": "2024-06-30",
+    "version_label": "Act No. 45 of 1860 (repealed w.e.f. 1 July 2024; applies to pre-July 2024 acts)",
+    "source_document_identifier": "Act No. 45 of 1860"
+  },
+  {
+    "id": "BNS_2023_S77",
+    "jurisdiction": "India",
+    "act_name": "Bharatiya Nyaya Sanhita, 2023",
+    "section_id": "Section 77",
+    "title": "Voyeurism",
+    "source_text": "Any man who watches, or captures the image of a woman engaging in a private act in circumstances where she would usually have the expectation of not being observed either by the perpetrator or by any other person at the behest of the perpetrator or disseminates such image shall be punished on first conviction with imprisonment of either description for a term which shall not be less than one year, but which may extend to three years, and shall also be liable to fine, and be punished on a second or subsequent conviction, with imprisonment of either description for a term which shall not be less than three years, but which may extend to seven years, and shall also be liable to fine.",
+    "plain_language_summary": "Secretly watching, recording, capturing, or disseminating images or videos of a woman in private settings where she reasonably expects privacy.",
+    "legal_elements": [
+      {
+        "element_id": "BNS_S77_E1",
+        "description": "Watching, capturing, or disseminating image of a woman engaging in a private act",
+        "keywords": [
+          "secretly recorded",
+          "hidden camera",
+          "captured intimate photo",
+          "disseminated video",
+          "bathroom camera"
+        ]
+      },
+      {
+        "element_id": "BNS_S77_E2",
+        "description": "Circumstances where woman has reasonable expectation of not being observed",
+        "keywords": [
+          "private act",
+          "expectation of privacy",
+          "without consent",
+          "changing room",
+          "bedroom"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Applies where woman consented to capture but not dissemination, and the image is disseminated. Corresponds directly to IPC Section 354C.",
+    "penalty_text": "First conviction: imprisonment of 1 to 3 years and fine. Second or subsequent conviction: imprisonment of 3 to 7 years and fine.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/20062",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-16T00:00:00Z",
+    "effective_from": "2024-07-01",
+    "effective_to": null,
+    "version_label": "Act No. 45 of 2023 (effective 1 July 2024, replacing IPC Section 354C)",
+    "source_document_identifier": "Act No. 45 of 2023"
+  },
+  {
+    "id": "IPC_1860_S354C",
+    "jurisdiction": "India",
+    "act_name": "Indian Penal Code, 1860",
+    "section_id": "Section 354C",
+    "title": "Voyeurism (Historical benchmark)",
+    "source_text": "Any man who watches, or captures the image of a woman engaging in a private act in circumstances where she would usually have the expectation of not being observed either by the perpetrator or by any other person at the behest of the perpetrator or disseminates such image shall be punished on first conviction with imprisonment of either description for a term which shall not be less than one year, but which may extend to three years, and shall also be liable to fine, and be punished on a second or subsequent conviction, with imprisonment of either description for a term which shall not be less than three years, but which may extend to seven years, and shall also be liable to fine.",
+    "plain_language_summary": "Historical offence of voyeurism (governs conduct on or before 30 June 2024).",
+    "legal_elements": [
+      {
+        "element_id": "IPC_S354C_E1",
+        "description": "Watching, capturing, or disseminating image of a woman in private act",
+        "keywords": [
+          "secretly recorded",
+          "hidden camera",
+          "captured intimate photo",
+          "disseminated video"
+        ]
+      },
+      {
+        "element_id": "IPC_S354C_E2",
+        "description": "Reasonable expectation of privacy without consent",
+        "keywords": [
+          "expectation of privacy",
+          "without consent",
+          "private setting"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Inserted by Criminal Law (Amendment) Act 2013; repealed w.e.f. 1 July 2024; retained under Section 358 BNS for pre-July 2024 conduct. Replaced by Section 77 of BNS 2023.",
+    "penalty_text": "First conviction: imprisonment of 1 to 3 years and fine. Subsequent conviction: imprisonment of 3 to 7 years and fine.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/2263",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-16T00:00:00Z",
+    "effective_from": "2013-02-03",
+    "effective_to": "2024-06-30",
+    "version_label": "Inserted by Act No. 13 of 2013 (repealed w.e.f. 1 July 2024; applies to pre-July 2024 acts)",
+    "source_document_identifier": "Act No. 13 of 2013"
+  },
+  {
+    "id": "BNS_2023_S79",
+    "jurisdiction": "India",
+    "act_name": "Bharatiya Nyaya Sanhita, 2023",
+    "section_id": "Section 79",
+    "title": "Word, gesture or act intended to insult the modesty of a woman",
+    "source_text": "Whoever, intending to insult the modesty of any woman, utters any word, makes any sound or gesture, or exhibits any object, intending that such word or sound shall be heard, or that such gesture or object shall be seen, by such woman, or intrudes upon the privacy of such woman, shall be punished with simple imprisonment for a term which may extend to three years, and also with fine.",
+    "plain_language_summary": "Using offensive, derogatory, or vulgar words, sounds, gestures, or messages intended to insult a woman or intrude upon her privacy.",
+    "legal_elements": [
+      {
+        "element_id": "BNS_S79_E1",
+        "description": "Intention to insult the modesty of a woman or intrude upon privacy",
+        "keywords": [
+          "insult modesty",
+          "vulgar remarks",
+          "lewd comments",
+          "abusive messages",
+          "harassing text"
+        ]
+      },
+      {
+        "element_id": "BNS_S79_E2",
+        "description": "Uttering words, making sounds/gestures, exhibiting objects, or intruding on privacy",
+        "keywords": [
+          "uttered words",
+          "sent lewd pictures",
+          "obscene gesture",
+          "intruded on privacy"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Corresponds directly to IPC Section 509. Commonly invoked in cases of online abuse, trolling, or sexually suggestive digital communications.",
+    "penalty_text": "Simple imprisonment for a term which may extend to three years, and also with fine.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/20062",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-16T00:00:00Z",
+    "effective_from": "2024-07-01",
+    "effective_to": null,
+    "version_label": "Act No. 45 of 2023 (effective 1 July 2024, replacing IPC Section 509)",
+    "source_document_identifier": "Act No. 45 of 2023"
+  },
+  {
+    "id": "IPC_1860_S509",
+    "jurisdiction": "India",
+    "act_name": "Indian Penal Code, 1860",
+    "section_id": "Section 509",
+    "title": "Word, gesture or act intended to insult the modesty of a woman (Historical benchmark)",
+    "source_text": "Whoever, intending to insult the modesty of any woman, utters any word, makes any sound or gesture, or exhibits any object, intending that such word or sound shall be heard, or that such gesture or object shall be seen, by such woman, or intrudes upon the privacy of such woman, shall be punished with simple imprisonment for a term which may extend to three years, and also with fine.",
+    "plain_language_summary": "Historical offence of insulting the modesty of a woman through words, sounds, gestures, or privacy intrusion (governs conduct on or before 30 June 2024).",
+    "legal_elements": [
+      {
+        "element_id": "IPC_S509_E1",
+        "description": "Intention to insult modesty or intrude upon privacy",
+        "keywords": [
+          "insult modesty",
+          "vulgar words",
+          "lewd comments",
+          "abusive messages"
+        ]
+      },
+      {
+        "element_id": "IPC_S509_E2",
+        "description": "Uttering word, making sound/gesture, or exhibiting object",
+        "keywords": [
+          "uttered word",
+          "made gesture",
+          "exhibited object",
+          "intruded privacy"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "Repealed by BNS 2023 w.e.f. 1 July 2024; retained under Section 358 BNS for pre-July 2024 conduct. Replaced by Section 79 of BNS 2023.",
+    "penalty_text": "Simple imprisonment for a term which may extend to three years, and also with fine.",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/2263",
+    "source_authority": "Legislative Department, Ministry of Law and Justice, Government of India",
+    "source_verified": true,
+    "verified_at": "2026-10-16T00:00:00Z",
+    "effective_from": "1862-01-01",
+    "effective_to": "2024-06-30",
+    "version_label": "Act No. 45 of 1860 as amended by Act No. 13 of 2013 (repealed w.e.f. 1 July 2024)",
+    "source_document_identifier": "Act No. 45 of 1860"
+  },
+  {
+    "id": "BNS_2023_S106_SUB2_UNCOMMENCED",
+    "jurisdiction": "India",
+    "act_name": "Bharatiya Nyaya Sanhita, 2023",
+    "section_id": "Section 106(2)",
+    "title": "Causing death by rash or negligent act and escaping without reporting (Awaiting notification)",
+    "source_text": "Whoever causes death of any person by doing any rash or negligent act not amounting to culpable homicide and escapes without reporting it to a police officer or a Magistrate soon after the incident, shall be punished with imprisonment of either description of a term which may extend to ten years, and shall also be liable to fine.",
+    "plain_language_summary": "Enhanced statutory penalty for hit-and-run fatalities where driver flees without reporting to authorities (statutorily enacted but excluded from commencement under Notification S.O. 850(E)).",
+    "legal_elements": [
+      {
+        "element_id": "BNS_S106_2_E1",
+        "description": "Causing death of any person by doing any rash or negligent act not amounting to culpable homicide",
+        "keywords": [
+          "rash driving",
+          "negligent act",
+          "fatal accident",
+          "hit and run death"
+        ]
+      },
+      {
+        "element_id": "BNS_S106_2_E2",
+        "description": "Escapes without reporting it to a police officer or Magistrate soon after the incident",
+        "keywords": [
+          "escaped without reporting",
+          "fled the scene",
+          "did not report to police"
+        ]
+      }
+    ],
+    "exceptions_or_qualifications": "EXCLUDED FROM COMMENCEMENT: Ministry of Home Affairs Notification S.O. 850(E) dated 23 February 2024 appointed 1 July 2024 as commencement date for BNS EXCEPT Section 106(2). This sub-section is NOT yet in force; penalty is unverified for enforcement.",
+    "penalty_text": "Imprisonment of either description of a term which may extend to ten years, and shall also be liable to fine (UNVERIFIED - Provision not yet brought into force).",
+    "official_source_url": "https://www.indiacode.nic.in/handle/123456789/20062",
+    "source_authority": "Ministry of Home Affairs Notification S.O. 850(E) dated 23 February 2024",
+    "source_verified": false,
+    "verified_at": null,
+    "effective_from": null,
+    "effective_to": null,
+    "version_label": "Act No. 45 of 2023 (EXCLUDED from commencement by Notification S.O. 850(E); awaiting central government notification)",
+    "source_document_identifier": "Act No. 45 of 2023 / S.O. 850(E)"
+  }
+]

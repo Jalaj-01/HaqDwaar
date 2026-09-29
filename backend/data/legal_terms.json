@@ -1,0 +1,263 @@
+[
+  {
+    "term": "lessee",
+    "plain_language_meaning": "A person or entity that leases or rents property from someone else (a tenant or renter).",
+    "legal_context": "Used in lease agreements and property law to designate the tenant holding rights under a lease.",
+    "example_usage": "The lessee agrees to pay the monthly rental amount on or before the fifth day of each calendar month.",
+    "related_terms": ["lessor", "tenant", "leasehold"],
+    "source": "Section 105, Transfer of Property Act, 1882 / Legal Glossary, Legislative Department, Ministry of Law and Justice",
+    "verification_status": "verified"
+  },
+  {
+    "term": "notwithstanding",
+    "plain_language_meaning": "In spite of, regardless of, or despite what was previously stated.",
+    "legal_context": "Used as a non-obstante clause in statutes and contracts to indicate that the clause overrides other conflicting rules.",
+    "example_usage": "Notwithstanding anything contained in clause 4, the company may terminate this agreement with immediate effect.",
+    "related_terms": ["subject to", "regardless of", "despite", "non-obstante"],
+    "source": "Principles of Statutory Interpretation / Legal Glossary, Legislative Department, Ministry of Law and Justice",
+    "verification_status": "verified"
+  },
+  {
+    "term": "herein",
+    "plain_language_meaning": "In this document, statement, or contract.",
+    "legal_context": "A formal referencing adverb pointing to terms, covenants, or conditions contained within the same written instrument.",
+    "example_usage": "The terms and conditions herein shall be binding upon both parties.",
+    "related_terms": ["hereto", "hereunder", "hereof"],
+    "source": "Legislative Drafting Manual, Legislative Department, Ministry of Law and Justice",
+    "verification_status": "verified"
+  },
+  {
+    "term": "aforementioned",
+    "plain_language_meaning": "Mentioned or referred to previously in the text.",
+    "legal_context": "Used to reference an entity, event, or asset established earlier in the document to prevent ambiguity.",
+    "example_usage": "The aforementioned property shall be handed over in sound condition.",
+    "related_terms": ["said", "aforesaid", "above-mentioned"],
+    "source": "Legislative Drafting Manual, Legislative Department, Ministry of Law and Justice",
+    "verification_status": "verified"
+  },
+  {
+    "term": "liable",
+    "plain_language_meaning": "Legally responsible or obligated under the law to do something, pay damages, or face penalties.",
+    "legal_context": "Used in civil and criminal jurisprudence to express accountability for debts, torts, or statutory offenses.",
+    "example_usage": "The borrower remains liable for all unpaid amounts until full settlement.",
+    "related_terms": ["liability", "responsible", "indemnity"],
+    "source": "General Clauses Act, 1897 / Legal Glossary, Legislative Department, Ministry of Law and Justice",
+    "verification_status": "verified"
+  },
+  {
+    "term": "mens rea",
+    "plain_language_meaning": "A guilty mind or criminal intention to commit a wrongful act.",
+    "legal_context": "A foundational doctrine in criminal law requiring proof that the accused had a wrongful mental state when committing the prohibited act.",
+    "example_usage": "In the absence of proved mens rea or fraudulent intent, a mere breach of agreement cannot be converted into cheating.",
+    "related_terms": ["guilty mind", "criminal intent", "scienter", "actus reus"],
+    "source": "Supreme Court of India criminal jurisprudence / Legal Glossary, Ministry of Law and Justice",
+    "verification_status": "verified"
+  },
+  {
+    "term": "actus reus",
+    "plain_language_meaning": "The physical act or unlawful conduct that constitutes the external element of a crime.",
+    "legal_context": "The tangible, voluntary conduct, deed, or omission forbidden by criminal law, which must coincide with mens rea.",
+    "example_usage": "The prosecution established the actus reus by showing that the accused physically removed the files without authorization.",
+    "related_terms": ["wrongful act", "overt act", "mens rea"],
+    "source": "Supreme Court of India criminal jurisprudence / Legal Glossary, Ministry of Law and Justice",
+    "verification_status": "verified"
+  },
+  {
+    "term": "prima facie",
+    "plain_language_meaning": "At first sight; based on first impression; accepted as correct until proved otherwise.",
+    "legal_context": "Used to describe evidence that is sufficient to establish a fact or raise a presumption unless rebutted by contrary evidence.",
+    "example_usage": "The court found prima facie evidence of fraud and directed registration of the complaint.",
+    "related_terms": ["at first appearance", "on the face of it", "presumptive evidence"],
+    "source": "Legal Glossary, Legislative Department, Ministry of Law and Justice",
+    "verification_status": "verified"
+  },
+  {
+    "term": "cognizable",
+    "plain_language_meaning": "A serious class of offense where a police officer has the legal authority to arrest the suspect without a warrant and begin investigation without prior court permission.",
+    "legal_context": "Defined in criminal procedure codes to distinguish serious crimes (e.g. theft, stalking, cheating by personation) from non-cognizable offenses.",
+    "example_usage": "Stalking under Section 78 BNS is a cognizable offense, allowing the investigating officer to register an FIR immediately.",
+    "related_terms": ["non-cognizable", "warrant", "FIR", "arrest"],
+    "source": "Section 2(1)(g), Bharatiya Nagarik Suraksha Sanhita, 2023 / Section 2(c), Code of Criminal Procedure, 1973",
+    "verification_status": "verified"
+  },
+  {
+    "term": "non-cognizable",
+    "plain_language_meaning": "An offense where a police officer cannot arrest without a warrant and cannot initiate an investigation without an order from a Magistrate.",
+    "legal_context": "Applies to relatively less severe offenses (e.g. simple hurt, simple defamation) where judicial oversight is required before police action.",
+    "example_usage": "Since the complaint disclosed only a non-cognizable grievance, the police recorded an NCR and referred the complainant to the Magistrate.",
+    "related_terms": ["cognizable", "NCR", "police report"],
+    "source": "Section 2(1)(p), Bharatiya Nagarik Suraksha Sanhita, 2023 / Section 2(l), Code of Criminal Procedure, 1973",
+    "verification_status": "verified"
+  },
+  {
+    "term": "bailable",
+    "plain_language_meaning": "An offense for which the accused has a legal right to be released on bail upon providing appropriate surety or bond.",
+    "legal_context": "Classified under the procedural schedule where bail is mandatory upon arrest if the accused is prepared to give bail.",
+    "example_usage": "The offense was classified as bailable, so the police granted bail upon execution of a personal bond.",
+    "related_terms": ["non-bailable", "bail bond", "surety"],
+    "source": "Section 2(1)(b), Bharatiya Nagarik Suraksha Sanhita, 2023 / Section 2(a), Code of Criminal Procedure, 1973",
+    "verification_status": "verified"
+  },
+  {
+    "term": "non-bailable",
+    "plain_language_meaning": "An offense where release on bail is not a matter of absolute right, but at the sound judicial discretion of the court.",
+    "legal_context": "Applies to grave offenses where the court balances individual liberty against the interests of society and risk of flight or witness tampering.",
+    "example_usage": "Extortion under Section 308 BNS is non-bailable, requiring the accused to move a formal bail application before the Sessions Court.",
+    "related_terms": ["bailable", "anticipatory bail", "judicial custody"],
+    "source": "Section 2(1)(b), Bharatiya Nagarik Suraksha Sanhita, 2023 / Section 2(a), Code of Criminal Procedure, 1973",
+    "verification_status": "verified"
+  },
+  {
+    "term": "without prejudice",
+    "plain_language_meaning": "Made or done without surrendering, waiving, or prejudicing any existing legal rights or claims.",
+    "legal_context": "Used in settlement communications and negotiations to prevent offers or statements from being used as admissions of liability in future proceedings.",
+    "example_usage": "The settlement offer was sent on a without-prejudice basis and cannot be relied upon as an admission in court.",
+    "related_terms": ["non-waiver", "privileged communication", "reservation of rights"],
+    "source": "Section 17, Bharatiya Sakshya Adhiniyam, 2023 / Section 23, Indian Evidence Act, 1872",
+    "verification_status": "verified"
+  },
+  {
+    "term": "inter alia",
+    "plain_language_meaning": "Among other things.",
+    "legal_context": "A Latin phrase used in pleadings, judgments, and legal notices to highlight specific items from a broader list.",
+    "example_usage": "The complaint alleges, inter alia, unauthorized access into the server and copying of proprietary database tables.",
+    "related_terms": ["among other things", "including but not limited to"],
+    "source": "Legal Glossary, Legislative Department, Ministry of Law and Justice",
+    "verification_status": "verified"
+  },
+  {
+    "term": "mutatis mutandis",
+    "plain_language_meaning": "With the necessary changes in points of detail having been made.",
+    "legal_context": "Used when applying an existing statutory rule or contractual provision to a different situation with only relevant alterations.",
+    "example_usage": "The arbitration procedure prescribed in Schedule A shall apply mutatis mutandis to all subsidiary agreements.",
+    "related_terms": ["with suitable changes", "adapted accordingly"],
+    "source": "Legal Glossary, Legislative Department, Ministry of Law and Justice",
+    "verification_status": "verified"
+  },
+  {
+    "term": "ultra vires",
+    "plain_language_meaning": "Beyond legal power or authority; in excess of the legal powers conferred.",
+    "legal_context": "Used in constitutional, corporate, and administrative law to declare an act, rule, or resolution void because it exceeds statutory jurisdiction.",
+    "example_usage": "The High Court struck down the municipal regulation as ultra vires the enabling parent Act.",
+    "related_terms": ["intra vires", "beyond powers", "jurisdictional excess"],
+    "source": "Constitutional and Administrative Law jurisprudence / Legal Glossary, Ministry of Law and Justice",
+    "verification_status": "verified"
+  },
+  {
+    "term": "bona fide",
+    "plain_language_meaning": "In good faith; genuine; honest and without fraud or deceit.",
+    "legal_context": "Used to describe intentions or actions performed honestly, without intent to cheat or commit deception.",
+    "example_usage": "The purchaser established that they were a bona fide buyer for value without notice of the prior encumbrance.",
+    "related_terms": ["good faith", "honest intention", "mala fide"],
+    "source": "Section 3(22), General Clauses Act, 1897 / Legal Glossary, Ministry of Law and Justice",
+    "verification_status": "verified"
+  },
+  {
+    "term": "mala fide",
+    "plain_language_meaning": "In bad faith; dishonest, fraudulent, or motivated by an improper purpose.",
+    "legal_context": "Used to challenge official actions or contractual breaches conducted with malicious intention or collateral motive.",
+    "example_usage": "The petitioner argued that the transfer order was punitive and issued with mala fide intent.",
+    "related_terms": ["bad faith", "dishonest intention", "bona fide"],
+    "source": "Supreme Court of India jurisprudence / Legal Glossary, Ministry of Law and Justice",
+    "verification_status": "verified"
+  },
+  {
+    "term": "indemnity",
+    "plain_language_meaning": "An obligation by one party to protect another against loss, damage, or legal liability, or to pay compensation for incurred losses.",
+    "legal_context": "A contract or statutory obligation where the promisor saves the promisee from loss caused by the promisor's or any third party's conduct.",
+    "example_usage": "The contractor provided a full indemnity covering any third-party claims arising from intellectual property infringement.",
+    "related_terms": ["hold harmless", "compensation", "guarantee"],
+    "source": "Section 124, Indian Contract Act, 1872 / Legal Glossary, Ministry of Law and Justice",
+    "verification_status": "verified"
+  },
+  {
+    "term": "ab initio",
+    "plain_language_meaning": "From the very beginning.",
+    "legal_context": "Refers to things that are legally invalid, void, or ineffective from the moment of inception, rather than becoming void later.",
+    "example_usage": "An agreement with a minor is void ab initio under Indian contract law.",
+    "related_terms": ["from the beginning", "void ab initio"],
+    "source": "Legal Glossary, Legislative Department, Ministry of Law and Justice",
+    "verification_status": "verified"
+  },
+  {
+    "term": "de facto",
+    "plain_language_meaning": "In reality or in practice, even if not officially or legally established.",
+    "legal_context": "Distinguishes actual existing practices or control from de jure (formally lawful) conditions.",
+    "example_usage": "Although the director had resigned on paper, she continued as the de facto decision-maker of the firm.",
+    "related_terms": ["de jure", "in practice", "in reality"],
+    "source": "Legal Glossary, Legislative Department, Ministry of Law and Justice",
+    "verification_status": "verified"
+  },
+  {
+    "term": "estoppel",
+    "plain_language_meaning": "A legal rule preventing a person from denying or contradicting the truth of a representation they previously made.",
+    "legal_context": "A statutory rule of evidence where an individual whose intentional declaration induced another to believe a thing cannot dispute it.",
+    "example_usage": "By actively encouraging the vendor to deliver goods, the company was bound by estoppel from denying the order.",
+    "related_terms": ["promissory estoppel", "preclusion", "representation"],
+    "source": "Section 121, Bharatiya Sakshya Adhiniyam, 2023 / Section 115, Indian Evidence Act, 1872",
+    "verification_status": "verified"
+  },
+  {
+    "term": "suo motu",
+    "plain_language_meaning": "On its own motion; action initiated by a court or authority independently without an application from a party.",
+    "legal_context": "Describes the exercise of inherent or supervisory jurisdiction where a court takes cognizance of a matter on its own initiative.",
+    "example_usage": "The High Court took suo motu cognizance of the widespread environmental contamination reported in the news.",
+    "related_terms": ["own initiative", "independent cognizance"],
+    "source": "Supreme Court Rules, 2013 / High Court Constitutional Jurisprudence",
+    "verification_status": "verified"
+  },
+  {
+    "term": "sub judice",
+    "plain_language_meaning": "Under judicial consideration; currently being heard or pending determination by a court.",
+    "legal_context": "Used to denote matters actively under adjudication where public commentary that could prejudice the trial may constitute contempt.",
+    "example_usage": "The spokesperson declined to discuss the ongoing trial because the matter remains sub judice.",
+    "related_terms": ["pending trial", "under judicial review"],
+    "source": "Contempt of Courts Act, 1971 / Legal Glossary, Ministry of Law and Justice",
+    "verification_status": "verified"
+  },
+  {
+    "term": "caveat emptor",
+    "plain_language_meaning": "Let the buyer beware; the buyer is responsible for inspecting the goods before purchase.",
+    "legal_context": "A commercial rule of sales law establishing that the purchaser bears the risk regarding quality unless express warranties or fraud exist.",
+    "example_usage": "Under the principle of caveat emptor, the buyer must satisfy themselves of the vehicle's roadworthiness before execution of sale.",
+    "related_terms": ["buyer beware", "warranty", "condition"],
+    "source": "Section 16, Sale of Goods Act, 1930 / Legal Glossary, Ministry of Law and Justice",
+    "verification_status": "verified"
+  },
+  {
+    "term": "res judicata",
+    "plain_language_meaning": "A matter that has already been conclusively decided by a competent court and cannot be relitigated between the same parties.",
+    "legal_context": "A fundamental procedural rule barring any court from trying a suit on an issue that was directly in issue in a previously decided suit.",
+    "example_usage": "The fresh claim was dismissed under Section 11 CPC on grounds of res judicata.",
+    "related_terms": ["finality of judgment", "estoppel by judgment"],
+    "source": "Section 11, Code of Civil Procedure, 1908",
+    "verification_status": "verified"
+  },
+  {
+    "term": "affidavit",
+    "plain_language_meaning": "A formal written statement of facts sworn or affirmed to be true under oath administered by an authorized officer.",
+    "legal_context": "Used as sworn written testimony in civil and criminal proceedings, subject to penalties for perjury if deliberately false.",
+    "example_usage": "The petitioner submitted an affidavit affirming that no prior application had been filed before another forum.",
+    "related_terms": ["deposition", "sworn statement", "attestation", "oath"],
+    "source": "Order XIX, Code of Civil Procedure, 1908 / Section 3, Notaries Act, 1952",
+    "verification_status": "verified"
+  },
+  {
+    "term": "force majeure",
+    "plain_language_meaning": "Unforeseeable, extraordinary circumstances (such as acts of God or war) that prevent someone from fulfilling a contract.",
+    "legal_context": "A contractual clause excusing performance upon occurrence of events beyond either party's control (provisional research entry).",
+    "example_usage": "The supplier invoked the force majeure clause following the unprecedented port closure.",
+    "related_terms": ["act of god", "vis major", "frustration"],
+    "source": "Provisional commercial law glossary (pending statutory codification review)",
+    "verification_status": "unverified"
+  },
+  {
+    "term": "promissory estoppel",
+    "plain_language_meaning": "A doctrine preventing a party from going back on a clear promise if the other party reasonably relied on it to their detriment.",
+    "legal_context": "An equitable doctrine applied against private parties and government bodies to enforce promises made without formal consideration (provisional entry).",
+    "example_usage": "The company relied on the doctrine of promissory estoppel to claim promised tax exemptions.",
+    "related_terms": ["estoppel", "equitable estoppel", "detrimental reliance"],
+    "source": "Provisional judicial doctrine glossary (pending statutory verification)",
+    "verification_status": "unverified"
+  }
+]
