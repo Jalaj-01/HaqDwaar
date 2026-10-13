@@ -1,0 +1,1534 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "LexiLaw API",
+    "description": "NLP-focused legal information and legal-language transformation system for Indian law.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "summary": "Health",
+        "description": "Simple API liveness endpoint.",
+        "operationId": "health_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/status": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "summary": "System Status",
+        "description": "Component readiness and system status reporting.\n\nDoes not expose sensitive system paths or secrets.",
+        "operationId": "system_status_api_v1_status_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/offense/analyze": {
+      "post": {
+        "tags": [
+          "Module 1: Offense Decoder"
+        ],
+        "summary": "Offense Analyze",
+        "description": "Analyze ordinary-language incident description against statutory provisions.",
+        "operationId": "offense_analyze_api_v1_offense_analyze_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OffenseAnalysisRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OffenseAnalysisResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ]
+      }
+    },
+    "/api/v1/legal-language/transform": {
+      "post": {
+        "tags": [
+          "Module 2: Legal Language Transformation"
+        ],
+        "summary": "Transform Language",
+        "description": "Transform text between legal-to-normal and normal-to-legal language modes.",
+        "operationId": "transform_language_api_v1_legal_language_transform_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TransformRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TransformResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ]
+      }
+    },
+    "/api/v1/legal-language/terms/{term}": {
+      "get": {
+        "tags": [
+          "Module 2: Legal Language Transformation"
+        ],
+        "summary": "Get Term",
+        "description": "Retrieve verified dictionary explanation and provenance for a legal term.",
+        "operationId": "get_term_api_v1_legal_language_terms__term__get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "term",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Term"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LegalTerm"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/legal-language/analyze-case": {
+      "post": {
+        "tags": [
+          "Module 2: Legal Language Transformation"
+        ],
+        "summary": "Analyze Case",
+        "description": "Extract case metadata, material facts, issues, party arguments, reasoning, and outcomes.",
+        "operationId": "analyze_case_api_v1_legal_language_analyze_case_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CaseAnalysisRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CaseAnalysisResult"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ]
+      }
+    },
+    "/api/v1/documents/extract": {
+      "post": {
+        "tags": [
+          "Document Processing"
+        ],
+        "summary": "Extract Document",
+        "description": "Extract per-page text from an uploaded PDF file safely using PyMuPDF.",
+        "operationId": "extract_document_api_v1_documents_extract_post",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "$ref": "#/components/schemas/Body_extract_document_api_v1_documents_extract_post"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DocumentExtractResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Body_extract_document_api_v1_documents_extract_post": {
+        "properties": {
+          "file": {
+            "type": "string",
+            "contentMediaType": "application/octet-stream",
+            "title": "File"
+          }
+        },
+        "type": "object",
+        "required": [
+          "file"
+        ],
+        "title": "Body_extract_document_api_v1_documents_extract_post"
+      },
+      "CaseAnalysisRequest": {
+        "properties": {
+          "text": {
+            "type": "string",
+            "title": "Text",
+            "description": "Full text of the legal judgment or case document"
+          },
+          "include_spans": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Include Spans",
+            "description": "Whether to include character evidence spans",
+            "default": true
+          }
+        },
+        "type": "object",
+        "required": [
+          "text"
+        ],
+        "title": "CaseAnalysisRequest",
+        "description": "Payload for case document and judgment analysis."
+      },
+      "CaseAnalysisResult": {
+        "properties": {
+          "request_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Request Id"
+          },
+          "case_metadata": {
+            "$ref": "#/components/schemas/CaseMetadata"
+          },
+          "material_facts": {
+            "items": {
+              "$ref": "#/components/schemas/CaseItem"
+            },
+            "type": "array",
+            "title": "Material Facts"
+          },
+          "legal_issues": {
+            "items": {
+              "$ref": "#/components/schemas/CaseItem"
+            },
+            "type": "array",
+            "title": "Legal Issues"
+          },
+          "cited_provisions": {
+            "items": {
+              "$ref": "#/components/schemas/CaseItem"
+            },
+            "type": "array",
+            "title": "Cited Provisions"
+          },
+          "party_arguments": {
+            "$ref": "#/components/schemas/PartyArguments"
+          },
+          "court_reasoning": {
+            "items": {
+              "$ref": "#/components/schemas/CaseItem"
+            },
+            "type": "array",
+            "title": "Court Reasoning"
+          },
+          "outcome": {
+            "$ref": "#/components/schemas/CaseItem"
+          },
+          "key_takeaways": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Key Takeaways"
+          },
+          "evidence_spans": {
+            "items": {
+              "$ref": "#/components/schemas/EvidenceSpan"
+            },
+            "type": "array",
+            "title": "Evidence Spans"
+          },
+          "warnings": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Warnings"
+          }
+        },
+        "type": "object",
+        "required": [
+          "case_metadata"
+        ],
+        "title": "CaseAnalysisResult",
+        "description": "Comprehensive structured case understanding output."
+      },
+      "CaseItem": {
+        "properties": {
+          "text": {
+            "type": "string",
+            "title": "Text"
+          },
+          "evidence_span": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/EvidenceSpan"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "section": {
+            "type": "string",
+            "title": "Section",
+            "default": "general"
+          }
+        },
+        "type": "object",
+        "required": [
+          "text"
+        ],
+        "title": "CaseItem",
+        "description": "An individual extracted item from a judgment or case text."
+      },
+      "CaseMetadata": {
+        "properties": {
+          "title": {
+            "type": "string",
+            "title": "Title",
+            "default": "not identified"
+          },
+          "citation": {
+            "type": "string",
+            "title": "Citation",
+            "default": "not identified"
+          },
+          "court": {
+            "type": "string",
+            "title": "Court",
+            "default": "not identified"
+          },
+          "decision_date": {
+            "type": "string",
+            "title": "Decision Date",
+            "default": "not identified"
+          },
+          "parties": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Parties"
+          }
+        },
+        "type": "object",
+        "title": "CaseMetadata",
+        "description": "Core identifiers and administrative metadata of a court judgment."
+      },
+      "ConfiguredLimits": {
+        "properties": {
+          "max_text_length": {
+            "type": "integer",
+            "title": "Max Text Length"
+          },
+          "max_top_k": {
+            "type": "integer",
+            "title": "Max Top K"
+          },
+          "default_top_k": {
+            "type": "integer",
+            "title": "Default Top K"
+          },
+          "max_pdf_size_bytes": {
+            "type": "integer",
+            "title": "Max Pdf Size Bytes"
+          },
+          "max_pdf_pages": {
+            "type": "integer",
+            "title": "Max Pdf Pages"
+          }
+        },
+        "type": "object",
+        "required": [
+          "max_text_length",
+          "max_top_k",
+          "default_top_k",
+          "max_pdf_size_bytes",
+          "max_pdf_pages"
+        ],
+        "title": "ConfiguredLimits"
+      },
+      "ContextualAnswer": {
+        "properties": {
+          "question_id": {
+            "type": "string",
+            "title": "Question Id",
+            "description": "ID of the follow-up question, e.g. Q_IPC_S419_ELEM_1"
+          },
+          "answer": {
+            "type": "string",
+            "title": "Answer",
+            "description": "User's clarifying response text"
+          }
+        },
+        "type": "object",
+        "required": [
+          "question_id",
+          "answer"
+        ],
+        "title": "ContextualAnswer",
+        "description": "Answer provided by user to a previous follow-up question."
+      },
+      "DocumentExtractResponse": {
+        "properties": {
+          "request_id": {
+            "type": "string",
+            "title": "Request Id"
+          },
+          "filename": {
+            "type": "string",
+            "title": "Filename"
+          },
+          "page_count": {
+            "type": "integer",
+            "title": "Page Count"
+          },
+          "total_characters": {
+            "type": "integer",
+            "title": "Total Characters"
+          },
+          "pages": {
+            "items": {
+              "$ref": "#/components/schemas/PageExtraction"
+            },
+            "type": "array",
+            "title": "Pages"
+          },
+          "extracted_text": {
+            "type": "string",
+            "title": "Extracted Text"
+          },
+          "warnings": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Warnings"
+          }
+        },
+        "type": "object",
+        "required": [
+          "request_id",
+          "filename",
+          "page_count",
+          "total_characters",
+          "pages",
+          "extracted_text",
+          "warnings"
+        ],
+        "title": "DocumentExtractResponse",
+        "description": "Structured response for uploaded PDF document extraction."
+      },
+      "ElementMatchResult": {
+        "properties": {
+          "element_id": {
+            "type": "string",
+            "title": "Element Id"
+          },
+          "description": {
+            "type": "string",
+            "title": "Description"
+          },
+          "status": {
+            "$ref": "#/components/schemas/ElementStatus"
+          },
+          "evidence_spans": {
+            "items": {
+              "$ref": "#/components/schemas/EvidenceSpan"
+            },
+            "type": "array",
+            "title": "Evidence Spans"
+          },
+          "reasoning": {
+            "type": "string",
+            "title": "Reasoning"
+          },
+          "evaluation_origin": {
+            "type": "string",
+            "title": "Evaluation Origin",
+            "default": "stated_facts"
+          }
+        },
+        "type": "object",
+        "required": [
+          "element_id",
+          "description",
+          "status",
+          "reasoning"
+        ],
+        "title": "ElementMatchResult",
+        "description": "Detailed match evaluation for a single statutory element."
+      },
+      "ElementStatus": {
+        "type": "string",
+        "enum": [
+          "supported",
+          "contradicted",
+          "not_established",
+          "not_evaluated"
+        ],
+        "title": "ElementStatus",
+        "description": "Evaluation status of an individual statutory element."
+      },
+      "EvaluatedCandidateProvision": {
+        "properties": {
+          "provision_id": {
+            "type": "string",
+            "title": "Provision Id"
+          },
+          "act_name": {
+            "type": "string",
+            "title": "Act Name"
+          },
+          "section_id": {
+            "type": "string",
+            "title": "Section Id"
+          },
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "jurisdiction": {
+            "type": "string",
+            "title": "Jurisdiction"
+          },
+          "official_source_url": {
+            "type": "string",
+            "title": "Official Source Url"
+          },
+          "source_authority": {
+            "type": "string",
+            "title": "Source Authority"
+          },
+          "source_verified": {
+            "type": "boolean",
+            "title": "Source Verified"
+          },
+          "effective_from": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Effective From"
+          },
+          "effective_to": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Effective To"
+          },
+          "version_label": {
+            "type": "string",
+            "title": "Version Label"
+          },
+          "penalty_displayed": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Penalty Displayed"
+          },
+          "plain_language_summary": {
+            "type": "string",
+            "title": "Plain Language Summary"
+          },
+          "explanation": {
+            "type": "string",
+            "title": "Explanation"
+          },
+          "lexical_score": {
+            "type": "number",
+            "title": "Lexical Score"
+          },
+          "semantic_score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Semantic Score"
+          },
+          "relevance_score": {
+            "type": "number",
+            "title": "Relevance Score"
+          },
+          "element_matches": {
+            "items": {
+              "$ref": "#/components/schemas/ElementMatchResult"
+            },
+            "type": "array",
+            "title": "Element Matches"
+          },
+          "supported_elements_count": {
+            "type": "integer",
+            "title": "Supported Elements Count"
+          },
+          "missing_elements_count": {
+            "type": "integer",
+            "title": "Missing Elements Count"
+          },
+          "contradicted_elements_count": {
+            "type": "integer",
+            "title": "Contradicted Elements Count"
+          }
+        },
+        "type": "object",
+        "required": [
+          "provision_id",
+          "act_name",
+          "section_id",
+          "title",
+          "jurisdiction",
+          "official_source_url",
+          "source_authority",
+          "source_verified",
+          "version_label",
+          "plain_language_summary",
+          "explanation",
+          "lexical_score",
+          "relevance_score",
+          "element_matches",
+          "supported_elements_count",
+          "missing_elements_count",
+          "contradicted_elements_count"
+        ],
+        "title": "EvaluatedCandidateProvision",
+        "description": "Evaluated statutory candidate with element comparisons and provenance."
+      },
+      "EvidenceSpan": {
+        "properties": {
+          "text": {
+            "type": "string",
+            "title": "Text",
+            "description": "Verbatim text span supporting the fact"
+          },
+          "start": {
+            "type": "integer",
+            "title": "Start",
+            "description": "Starting character offset (inclusive)"
+          },
+          "end": {
+            "type": "integer",
+            "title": "End",
+            "description": "Ending character offset (exclusive)"
+          }
+        },
+        "type": "object",
+        "required": [
+          "text",
+          "start",
+          "end"
+        ],
+        "title": "EvidenceSpan",
+        "description": "Text span and character offsets in normalized input."
+      },
+      "ExtractedFact": {
+        "properties": {
+          "description": {
+            "type": "string",
+            "title": "Description",
+            "description": "Clear factual statement"
+          },
+          "actor": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Actor",
+            "description": "Identified actor/subject or None if unstated"
+          },
+          "action": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Action",
+            "description": "Action or predicate asserted"
+          },
+          "evidence_span": {
+            "$ref": "#/components/schemas/EvidenceSpan",
+            "description": "Direct textual evidence"
+          },
+          "extraction_method": {
+            "type": "string",
+            "title": "Extraction Method",
+            "description": "Method used to extract this fact"
+          },
+          "confidence": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Confidence",
+            "description": "Calibrated confidence if applicable"
+          },
+          "origin": {
+            "$ref": "#/components/schemas/FactOrigin",
+            "description": "'stated', 'rule_extracted', or 'inferred'",
+            "default": "stated"
+          }
+        },
+        "type": "object",
+        "required": [
+          "description",
+          "evidence_span",
+          "extraction_method"
+        ],
+        "title": "ExtractedFact",
+        "description": "Structured fact grounded in textual evidence."
+      },
+      "FactOrigin": {
+        "type": "string",
+        "enum": [
+          "stated",
+          "rule_extracted",
+          "inferred"
+        ],
+        "title": "FactOrigin",
+        "description": "Origin classification for extracted facts."
+      },
+      "FollowUpQuestion": {
+        "properties": {
+          "question_id": {
+            "type": "string",
+            "title": "Question Id"
+          },
+          "provision_id": {
+            "type": "string",
+            "title": "Provision Id"
+          },
+          "element_id": {
+            "type": "string",
+            "title": "Element Id"
+          },
+          "question_text": {
+            "type": "string",
+            "title": "Question Text"
+          },
+          "context_note": {
+            "type": "string",
+            "title": "Context Note"
+          }
+        },
+        "type": "object",
+        "required": [
+          "question_id",
+          "provision_id",
+          "element_id",
+          "question_text",
+          "context_note"
+        ],
+        "title": "FollowUpQuestion",
+        "description": "Focused neutral question targeting unestablished statutory elements."
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "HealthResponse": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "title": "Status",
+            "example": "ok"
+          },
+          "message": {
+            "type": "string",
+            "title": "Message",
+            "example": "API is running"
+          }
+        },
+        "type": "object",
+        "required": [
+          "status",
+          "message"
+        ],
+        "title": "HealthResponse"
+      },
+      "IncidentCategory": {
+        "properties": {
+          "category_id": {
+            "type": "string",
+            "title": "Category Id",
+            "description": "Machine-readable category identifier"
+          },
+          "label": {
+            "type": "string",
+            "title": "Label",
+            "description": "Human-readable category title"
+          },
+          "rationale": {
+            "type": "string",
+            "title": "Rationale",
+            "description": "Explainable textual rationale for this category"
+          },
+          "is_provisional": {
+            "type": "boolean",
+            "title": "Is Provisional",
+            "description": "Indicates provisional rule-based classification requiring verification",
+            "default": true
+          }
+        },
+        "type": "object",
+        "required": [
+          "category_id",
+          "label",
+          "rationale"
+        ],
+        "title": "IncidentCategory",
+        "description": "An explainable provisional incident category."
+      },
+      "LegalTerm": {
+        "properties": {
+          "term": {
+            "type": "string",
+            "title": "Term",
+            "description": "Legal term or phrase"
+          },
+          "plain_language_meaning": {
+            "type": "string",
+            "title": "Plain Language Meaning",
+            "description": "Clear plain-language explanation"
+          },
+          "legal_context": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Legal Context",
+            "description": "Context in which term appears"
+          },
+          "example_usage": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Example Usage",
+            "description": "Example sentence or statutory context"
+          },
+          "related_terms": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Related Terms",
+            "description": "Synonyms or related legal terms"
+          },
+          "source": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Source",
+            "description": "Citation or source of definition"
+          },
+          "verification_status": {
+            "type": "string",
+            "title": "Verification Status",
+            "description": "'verified' or 'unverified'",
+            "default": "unverified"
+          }
+        },
+        "type": "object",
+        "required": [
+          "term",
+          "plain_language_meaning"
+        ],
+        "title": "LegalTerm",
+        "description": "Schema for a legal terminology dictionary record."
+      },
+      "OffenseAnalysisRequest": {
+        "properties": {
+          "incident_text": {
+            "type": "string",
+            "title": "Incident Text",
+            "description": "Ordinary-language description of the incident"
+          },
+          "contextual_answers": {
+            "anyOf": [
+              {
+                "items": {
+                  "$ref": "#/components/schemas/ContextualAnswer"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Contextual Answers",
+            "description": "Optional list of answers to clarifying follow-up questions"
+          },
+          "top_k": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "maximum": 20.0,
+                "minimum": 1.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Top K",
+            "description": "Maximum number of candidate provisions to return (1-20)",
+            "default": 5
+          }
+        },
+        "type": "object",
+        "required": [
+          "incident_text"
+        ],
+        "title": "OffenseAnalysisRequest",
+        "description": "Input request payload for incident analysis."
+      },
+      "OffenseAnalysisResponse": {
+        "properties": {
+          "request_id": {
+            "type": "string",
+            "title": "Request Id"
+          },
+          "extracted_facts": {
+            "items": {
+              "$ref": "#/components/schemas/ExtractedFact"
+            },
+            "type": "array",
+            "title": "Extracted Facts"
+          },
+          "incident_categories": {
+            "items": {
+              "$ref": "#/components/schemas/IncidentCategory"
+            },
+            "type": "array",
+            "title": "Incident Categories"
+          },
+          "candidate_provisions": {
+            "items": {
+              "$ref": "#/components/schemas/EvaluatedCandidateProvision"
+            },
+            "type": "array",
+            "title": "Candidate Provisions"
+          },
+          "follow_up_questions": {
+            "items": {
+              "$ref": "#/components/schemas/FollowUpQuestion"
+            },
+            "type": "array",
+            "title": "Follow Up Questions"
+          },
+          "uncertainty_notes": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Uncertainty Notes"
+          },
+          "disclaimer": {
+            "type": "string",
+            "title": "Disclaimer"
+          },
+          "no_reliable_match": {
+            "type": "boolean",
+            "title": "No Reliable Match"
+          },
+          "no_reliable_match_explanation": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "No Reliable Match Explanation"
+          }
+        },
+        "type": "object",
+        "required": [
+          "request_id",
+          "extracted_facts",
+          "incident_categories",
+          "candidate_provisions",
+          "follow_up_questions",
+          "uncertainty_notes",
+          "disclaimer",
+          "no_reliable_match"
+        ],
+        "title": "OffenseAnalysisResponse",
+        "description": "Structured evidence-grounded response for incident analysis."
+      },
+      "PageExtraction": {
+        "properties": {
+          "page_number": {
+            "type": "integer",
+            "title": "Page Number"
+          },
+          "text": {
+            "type": "string",
+            "title": "Text"
+          },
+          "char_count": {
+            "type": "integer",
+            "title": "Char Count"
+          }
+        },
+        "type": "object",
+        "required": [
+          "page_number",
+          "text",
+          "char_count"
+        ],
+        "title": "PageExtraction",
+        "description": "Extracted text and character counts for a single page."
+      },
+      "PartyArguments": {
+        "properties": {
+          "petitioner_arguments": {
+            "items": {
+              "$ref": "#/components/schemas/CaseItem"
+            },
+            "type": "array",
+            "title": "Petitioner Arguments"
+          },
+          "respondent_arguments": {
+            "items": {
+              "$ref": "#/components/schemas/CaseItem"
+            },
+            "type": "array",
+            "title": "Respondent Arguments"
+          }
+        },
+        "type": "object",
+        "title": "PartyArguments",
+        "description": "Arguments attributed separately to petitioner and respondent."
+      },
+      "PreservationCheckItem": {
+        "properties": {
+          "category": {
+            "type": "string",
+            "title": "Category"
+          },
+          "status": {
+            "type": "string",
+            "title": "Status"
+          },
+          "detail": {
+            "type": "string",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "required": [
+          "category",
+          "status",
+          "detail"
+        ],
+        "title": "PreservationCheckItem",
+        "description": "Specific preservation audit line item."
+      },
+      "PreservationReport": {
+        "properties": {
+          "input_entities_count": {
+            "type": "integer",
+            "title": "Input Entities Count"
+          },
+          "preserved_entities": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Preserved Entities"
+          },
+          "unpreserved_entities": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Unpreserved Entities"
+          },
+          "dates_preserved": {
+            "type": "boolean",
+            "title": "Dates Preserved"
+          },
+          "amounts_preserved": {
+            "type": "boolean",
+            "title": "Amounts Preserved"
+          },
+          "negation_preserved": {
+            "type": "boolean",
+            "title": "Negation Preserved"
+          },
+          "qualifiers_preserved": {
+            "type": "boolean",
+            "title": "Qualifiers Preserved"
+          },
+          "unsupported_additions_detected": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Unsupported Additions Detected"
+          },
+          "checks": {
+            "items": {
+              "$ref": "#/components/schemas/PreservationCheckItem"
+            },
+            "type": "array",
+            "title": "Checks"
+          },
+          "overall_status": {
+            "type": "string",
+            "title": "Overall Status"
+          }
+        },
+        "type": "object",
+        "required": [
+          "input_entities_count",
+          "preserved_entities",
+          "unpreserved_entities",
+          "dates_preserved",
+          "amounts_preserved",
+          "negation_preserved",
+          "qualifiers_preserved",
+          "unsupported_additions_detected",
+          "checks",
+          "overall_status"
+        ],
+        "title": "PreservationReport",
+        "description": "Comprehensive fact and semantic preservation audit report."
+      },
+      "StatusResponse": {
+        "properties": {
+          "request_id": {
+            "type": "string",
+            "title": "Request Id"
+          },
+          "component_readiness": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "type": "object",
+            "title": "Component Readiness"
+          },
+          "spacy_model_loaded": {
+            "type": "boolean",
+            "title": "Spacy Model Loaded"
+          },
+          "spacy_model_name": {
+            "type": "string",
+            "title": "Spacy Model Name"
+          },
+          "semantic_model_loaded": {
+            "type": "boolean",
+            "title": "Semantic Model Loaded"
+          },
+          "semantic_model_name": {
+            "type": "string",
+            "title": "Semantic Model Name"
+          },
+          "retrieval_mode": {
+            "type": "string",
+            "title": "Retrieval Mode"
+          },
+          "corpus_record_count": {
+            "type": "integer",
+            "title": "Corpus Record Count"
+          },
+          "verified_record_count": {
+            "type": "integer",
+            "title": "Verified Record Count"
+          },
+          "corpus_status": {
+            "type": "string",
+            "title": "Corpus Status"
+          },
+          "configured_limits": {
+            "$ref": "#/components/schemas/ConfiguredLimits"
+          },
+          "known_limitations": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Known Limitations"
+          }
+        },
+        "type": "object",
+        "required": [
+          "request_id",
+          "component_readiness",
+          "spacy_model_loaded",
+          "spacy_model_name",
+          "semantic_model_loaded",
+          "semantic_model_name",
+          "retrieval_mode",
+          "corpus_record_count",
+          "verified_record_count",
+          "corpus_status",
+          "configured_limits",
+          "known_limitations"
+        ],
+        "title": "StatusResponse"
+      },
+      "TransformRequest": {
+        "properties": {
+          "text": {
+            "type": "string",
+            "title": "Text",
+            "description": "Source text to transform"
+          },
+          "mode": {
+            "type": "string",
+            "title": "Mode",
+            "description": "Transformation mode: strictly 'legal_to_normal' or 'normal_to_legal'",
+            "example": "legal_to_normal"
+          },
+          "context": {
+            "anyOf": [
+              {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Context",
+            "description": "Optional drafting context or background parameters"
+          }
+        },
+        "type": "object",
+        "required": [
+          "text",
+          "mode"
+        ],
+        "title": "TransformRequest",
+        "description": "Input payload for legal language transformation."
+      },
+      "TransformResponse": {
+        "properties": {
+          "request_id": {
+            "type": "string",
+            "title": "Request Id"
+          },
+          "mode": {
+            "type": "string",
+            "title": "Mode"
+          },
+          "original_text": {
+            "type": "string",
+            "title": "Original Text"
+          },
+          "transformed_text": {
+            "type": "string",
+            "title": "Transformed Text"
+          },
+          "extracted_facts": {
+            "items": {
+              "$ref": "#/components/schemas/ExtractedFact"
+            },
+            "type": "array",
+            "title": "Extracted Facts"
+          },
+          "terminology_explanations": {
+            "items": {
+              "$ref": "#/components/schemas/LegalTerm"
+            },
+            "type": "array",
+            "title": "Terminology Explanations"
+          },
+          "missing_details": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Missing Details"
+          },
+          "preservation_checks": {
+            "$ref": "#/components/schemas/PreservationReport"
+          },
+          "warnings": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Warnings"
+          },
+          "review_status": {
+            "type": "string",
+            "title": "Review Status"
+          }
+        },
+        "type": "object",
+        "required": [
+          "request_id",
+          "mode",
+          "original_text",
+          "transformed_text",
+          "extracted_facts",
+          "terminology_explanations",
+          "missing_details",
+          "preservation_checks",
+          "warnings",
+          "review_status"
+        ],
+        "title": "TransformResponse",
+        "description": "Result payload for bidirectional transformation with preservation report."
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    },
+    "securitySchemes": {
+      "APIKeyHeader": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "X-API-Key"
+      }
+    }
+  }
+}
