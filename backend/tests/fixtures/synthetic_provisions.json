@@ -1,0 +1,100 @@
+[
+  {
+    "id": "SYNTHETIC_ACT_S1",
+    "jurisdiction": "India",
+    "act_name": "Synthetic Test Act 2099",
+    "section_id": "Section 1",
+    "title": "Impersonation and Identity Creation (SYNTHETIC TEST ONLY)",
+    "source_text": "Whoever intentionally creates a synthetic profile or online identity using another person's name or likeness without consent commits synthetic impersonation.",
+    "plain_language_summary": "Creating an online profile using someone else's name or photo without their consent.",
+    "legal_elements": [
+      {
+        "element_id": "SYN_E1",
+        "description": "Creation of profile or online identity",
+        "keywords": ["create", "account", "profile", "identity"]
+      },
+      {
+        "element_id": "SYN_E2",
+        "description": "Use of another person's name or likeness",
+        "keywords": ["name", "photos", "likeness", "identity"]
+      },
+      {
+        "element_id": "SYN_E3",
+        "description": "Absence of consent or authorization",
+        "keywords": ["without permission", "without consent", "unauthorized"]
+      }
+    ],
+    "exceptions_or_qualifications": "Does not apply to authorized dramatic portrayals or parody.",
+    "penalty_text": "Synthetic penalty of imprisonment up to 2 years or synthetic fine of 50,000 credits.",
+    "official_source_url": "https://example.gov.in/synthetic-test-act-s1",
+    "source_authority": "Synthetic Testing Authority",
+    "source_verified": true,
+    "verified_at": "2026-01-01T00:00:00Z",
+    "effective_from": "2099-01-01",
+    "effective_to": null,
+    "version_label": "synthetic-1.0",
+    "source_document_identifier": "SYNTHETIC-GAZETTE-2099-01"
+  },
+  {
+    "id": "SYNTHETIC_ACT_S2",
+    "jurisdiction": "India",
+    "act_name": "Synthetic Test Act 2099",
+    "section_id": "Section 2",
+    "title": "Non-Consensual Image Uploading (SYNTHETIC TEST ONLY - UNVERIFIED RECORD)",
+    "source_text": "Whoever transmits or publishes visual images of a person without explicit permission commits synthetic privacy violation.",
+    "plain_language_summary": "Uploading or transmitting photos of someone without their permission.",
+    "legal_elements": [
+      {
+        "element_id": "SYN_E4",
+        "description": "Uploading or publishing visual images",
+        "keywords": ["uploaded", "published", "photos", "images"]
+      },
+      {
+        "element_id": "SYN_E5",
+        "description": "Without explicit permission",
+        "keywords": ["without permission", "without consent"]
+      }
+    ],
+    "exceptions_or_qualifications": null,
+    "penalty_text": "Unverified synthetic penalty of 3 years.",
+    "official_source_url": "https://example.gov.in/synthetic-test-act-s2",
+    "source_authority": "Synthetic Testing Authority",
+    "source_verified": false,
+    "verified_at": null,
+    "effective_from": "2099-01-01",
+    "effective_to": null,
+    "version_label": "synthetic-1.0-draft",
+    "source_document_identifier": null
+  },
+  {
+    "id": "SYNTHETIC_ACT_S3",
+    "jurisdiction": "India",
+    "act_name": "Synthetic Test Act 2099",
+    "section_id": "Section 3",
+    "title": "Digital Financial Extortion (SYNTHETIC TEST ONLY)",
+    "source_text": "Whoever intentionally demands money or property by threatening to disseminate digital images or private records commits digital extortion.",
+    "plain_language_summary": "Demanding money by threatening to leak private photos or data.",
+    "legal_elements": [
+      {
+        "element_id": "SYN_E6",
+        "description": "Demand for money or property",
+        "keywords": ["money", "rupees", "demanded", "extortion", "Rs"]
+      },
+      {
+        "element_id": "SYN_E7",
+        "description": "Threatening dissemination of private records or images",
+        "keywords": ["threatened", "blackmail", "leak", "photos"]
+      }
+    ],
+    "exceptions_or_qualifications": null,
+    "penalty_text": "Synthetic penalty of imprisonment up to 5 years and synthetic fine.",
+    "official_source_url": "https://example.gov.in/synthetic-test-act-s3",
+    "source_authority": "Synthetic Testing Authority",
+    "source_verified": true,
+    "verified_at": "2026-01-01T00:00:00Z",
+    "effective_from": "2099-01-01",
+    "effective_to": null,
+    "version_label": "synthetic-1.0",
+    "source_document_identifier": "SYNTHETIC-GAZETTE-2099-03"
+  }
+]
