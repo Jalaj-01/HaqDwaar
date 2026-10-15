@@ -1,0 +1,369 @@
+{
+  "manifest_version": "1.0.0",
+  "created_at": "2026-10-17T15:10:00Z",
+  "total_pending_records": 45,
+  "original_quarantined_records_count": 10,
+  "blind_benchmark_scenarios_count": 35,
+  "records": [
+    {
+      "query_id": "DEV_026",
+      "dataset_file": "backend/evaluation/retrieval_eval_dataset.json",
+      "split": "dev",
+      "category": "cyber_identity_theft",
+      "annotation_status": "pending",
+      "query_text": "Someone logged into my work email account using stolen credentials and sent offensive emails to our leadership team."
+    },
+    {
+      "query_id": "DEV_027",
+      "dataset_file": "backend/evaluation/retrieval_eval_dataset.json",
+      "split": "dev",
+      "category": "out_of_scope_no_match",
+      "annotation_status": "pending",
+      "query_text": "A vendor manufactured counterfeit branded handbags mimicking our registered trademark logo."
+    },
+    {
+      "query_id": "DEV_028",
+      "dataset_file": "backend/evaluation/retrieval_eval_dataset.json",
+      "split": "dev",
+      "category": "criminal_intimidation",
+      "annotation_status": "pending",
+      "query_text": "The blackmailer told me he would post private photographs of my family unless I withdrew my police complaint."
+    },
+    {
+      "query_id": "DEV_029",
+      "dataset_file": "backend/evaluation/retrieval_eval_dataset.json",
+      "split": "dev",
+      "category": "out_of_scope_no_match",
+      "annotation_status": "pending",
+      "query_text": "A person recorded a conversation in a restaurant without informing the other attendees."
+    },
+    {
+      "query_id": "DEV_030",
+      "dataset_file": "backend/evaluation/retrieval_eval_dataset.json",
+      "split": "dev",
+      "category": "stalking",
+      "annotation_status": "pending",
+      "query_text": "Someone placed a GPS magnetic tracker under my vehicle and monitored everywhere I drove for two weeks."
+    },
+    {
+      "query_id": "TEST_016",
+      "dataset_file": "backend/evaluation/retrieval_eval_dataset.json",
+      "split": "test",
+      "category": "unauthorized_access",
+      "annotation_status": "pending",
+      "query_text": "An unauthorized party guessed my Wi-Fi router password and used my home broadband connection for three days."
+    },
+    {
+      "query_id": "TEST_017",
+      "dataset_file": "backend/evaluation/retrieval_eval_dataset.json",
+      "split": "test",
+      "category": "financial_fraud",
+      "annotation_status": "pending",
+      "query_text": "In December 2023, an accountant embezzled funds by submitting forged invoices to the finance department."
+    },
+    {
+      "query_id": "TEST_018",
+      "dataset_file": "backend/evaluation/retrieval_eval_dataset.json",
+      "split": "test",
+      "category": "out_of_scope_no_match",
+      "annotation_status": "pending",
+      "query_text": "Someone took pictures of our company storefront from a public street sidewalk during business hours."
+    },
+    {
+      "query_id": "TEST_019",
+      "dataset_file": "backend/evaluation/retrieval_eval_dataset.json",
+      "split": "test",
+      "category": "out_of_scope_no_match",
+      "annotation_status": "pending",
+      "query_text": "A user created a parody account on social media clearly labeled as satire of a celebrity."
+    },
+    {
+      "query_id": "TEST_020",
+      "dataset_file": "backend/evaluation/retrieval_eval_dataset.json",
+      "split": "test",
+      "category": "stalking",
+      "annotation_status": "pending",
+      "query_text": "A man sent fifty unsolicited romantic poems to a coworker's official email despite her repeated requests to stop."
+    },
+    {
+      "query_id": "BLIND_001",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "forgery",
+      "annotation_status": "pending",
+      "query_text": "In August 2024, a job applicant created a fake university degree certificate and submitted it to our company HR department to obtain employment."
+    },
+    {
+      "query_id": "BLIND_002",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "forgery",
+      "annotation_status": "pending",
+      "query_text": "In November 2023, an employee fabricated a fake vendor invoice on official company letterhead and submitted it to finance to claim a fraudulent reimbursement."
+    },
+    {
+      "query_id": "BLIND_003",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "forgery",
+      "annotation_status": "pending",
+      "query_text": "In September 2024, an individual presented a doctored property deed that had been forged by an unknown third party, knowing it was fake, to register a disputed land plot."
+    },
+    {
+      "query_id": "BLIND_004",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "forgery",
+      "annotation_status": "pending",
+      "query_text": "In January 2024, a contractor altered the date and figure on an official clearance certificate to avoid municipal inspection penalties."
+    },
+    {
+      "query_id": "BLIND_005",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "criminal_breach_of_trust",
+      "annotation_status": "pending",
+      "query_text": "In August 2024, a corporate treasurer was entrusted with company liquid assets but secretly siphoned twenty lakh rupees into a personal cryptocurrency wallet."
+    },
+    {
+      "query_id": "BLIND_006",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "criminal_breach_of_trust",
+      "annotation_status": "pending",
+      "query_text": "In March 2024, a warehouse manager entrusted with electronic goods inventory dishonestly sold fifty laptops on the grey market and kept the cash."
+    },
+    {
+      "query_id": "BLIND_007",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "mischief",
+      "annotation_status": "pending",
+      "query_text": "In August 2024, a disgruntled ex-employee entered the office server room and intentionally cut the fiber optic cables, destroying critical network equipment."
+    },
+    {
+      "query_id": "BLIND_008",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "mischief",
+      "annotation_status": "pending",
+      "query_text": "In February 2024, an angry neighbor slashed the tires of a parked car and smashed the front windshield with an iron rod."
+    },
+    {
+      "query_id": "BLIND_009",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "theft",
+      "annotation_status": "pending",
+      "query_text": "In September 2024, a thief snatched an unattended backpack containing a laptop and wallet from a cafe table without the owner's knowledge or consent."
+    },
+    {
+      "query_id": "BLIND_010",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "theft",
+      "annotation_status": "pending",
+      "query_text": "In December 2023, a pickpocket stole a gold watch and cash from an office drawer during lunch hour without permission."
+    },
+    {
+      "query_id": "BLIND_011",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "extortion",
+      "annotation_status": "pending",
+      "query_text": "In August 2024, a gang threatened a shopkeeper that they would burn down his grocery store unless he paid them twenty thousand rupees every month."
+    },
+    {
+      "query_id": "BLIND_012",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "extortion",
+      "annotation_status": "pending",
+      "query_text": "In January 2024, a blackmailer sent threatening letters to an executive stating he would reveal embarrassing personal secrets unless fifty thousand rupees was deposited in cash."
+    },
+    {
+      "query_id": "BLIND_013",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "voyeurism",
+      "annotation_status": "pending",
+      "query_text": "In August 2024, a gym cleaner installed a spy camera inside the female shower stall to secretly record women without their consent."
+    },
+    {
+      "query_id": "BLIND_014",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "voyeurism",
+      "annotation_status": "pending",
+      "query_text": "In October 2023, a tenant secretly drilled a peephole into an adjoining bathroom to watch and photograph a female resident."
+    },
+    {
+      "query_id": "BLIND_015",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "stalking",
+      "annotation_status": "pending",
+      "query_text": "In September 2024, a man repeatedly followed a woman home from the bus stop every evening for three weeks despite her yelling at him to leave her alone."
+    },
+    {
+      "query_id": "BLIND_016",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "stalking",
+      "annotation_status": "pending",
+      "query_text": "In April 2024, a man sent constant unwanted text messages and monitored the social media profiles of a woman who had explicitly blocked his number."
+    },
+    {
+      "query_id": "BLIND_017",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "insult_modesty",
+      "annotation_status": "pending",
+      "query_text": "In August 2024, a supervisor made vulgar sexual gestures and uttered sexually explicit insults directed at a female employee in the office pantry."
+    },
+    {
+      "query_id": "BLIND_018",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "insult_modesty",
+      "annotation_status": "pending",
+      "query_text": "In May 2024, an attendee at a conference shouted lewd remarks and made indecent gestures intending to insult the modesty of a woman speaker."
+    },
+    {
+      "query_id": "BLIND_019",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "defamation",
+      "annotation_status": "pending",
+      "query_text": "In August 2024, a blogger published a malicious article falsely accusing a local business owner of running an illegal drug ring, severely damaging his business."
+    },
+    {
+      "query_id": "BLIND_020",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "defamation",
+      "annotation_status": "pending",
+      "query_text": "In November 2023, a resident circulated defamatory flyers across a residential colony alleging that a neighbor was an embezzler."
+    },
+    {
+      "query_id": "BLIND_021",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "criminal_intimidation",
+      "annotation_status": "pending",
+      "query_text": "In August 2024, a moneylender threatened to physically assault a borrower and break his legs unless he surrendered his motorcycle."
+    },
+    {
+      "query_id": "BLIND_022",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "criminal_intimidation",
+      "annotation_status": "pending",
+      "query_text": "In February 2024, a landlord threatened to have thugs beat up a tenant and throw his belongings into the street if he did not vacate immediately."
+    },
+    {
+      "query_id": "BLIND_023",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "cyber_hacking",
+      "annotation_status": "pending",
+      "query_text": "A hacker deployed ransomware that encrypted database files on a hospital server and demanded ten Bitcoin to provide the decryption key."
+    },
+    {
+      "query_id": "BLIND_024",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "cyber_identity_theft",
+      "annotation_status": "pending",
+      "query_text": "An intruder harvested credit card numbers and passwords from an e-commerce website using a keylogger script."
+    },
+    {
+      "query_id": "BLIND_025",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "cyber_personation",
+      "annotation_status": "pending",
+      "query_text": "A scammer set up a phishing website mimicking the income tax e-filing portal to trick taxpayers into revealing their banking passwords and PAN details."
+    },
+    {
+      "query_id": "BLIND_026",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "privacy_violation",
+      "annotation_status": "pending",
+      "query_text": "A coworker shared an intimate video of a colleague's private body parts on a messaging group without her consent, recorded during a video call."
+    },
+    {
+      "query_id": "BLIND_027",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "out_of_scope_civil_breach_of_contract",
+      "annotation_status": "pending",
+      "query_text": "A software development agency failed to deliver mobile application source code by the contractually agreed deadline despite receiving fifty percent advance payment."
+    },
+    {
+      "query_id": "BLIND_028",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "out_of_scope_tenancy_dispute",
+      "annotation_status": "pending",
+      "query_text": "A tenant withheld rent payment for two months citing failure of the landlord to repair water leaks in the ceiling."
+    },
+    {
+      "query_id": "BLIND_029",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "out_of_scope_consumer_protection",
+      "annotation_status": "pending",
+      "query_text": "A consumer purchased a refrigerator from a retail store that stopped cooling after ten days, and the manufacturer refused to honor the warranty replacement."
+    },
+    {
+      "query_id": "BLIND_030",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "out_of_scope_satire_free_speech",
+      "annotation_status": "pending",
+      "query_text": "An artist drew a political caricature and satirical cartoon of a government minister and published it on a social media humor page."
+    },
+    {
+      "query_id": "BLIND_031",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "out_of_scope_public_photography",
+      "annotation_status": "pending",
+      "query_text": "A passerby took landscape photographs of an architecturally distinctive corporate office tower from a public pavement."
+    },
+    {
+      "query_id": "BLIND_032",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "out_of_scope_uncommenced_statute",
+      "annotation_status": "pending",
+      "query_text": "A pedestrian was injured in a hit-and-run collision in August 2024 where the driver sped away without reporting to the police."
+    },
+    {
+      "query_id": "BLIND_033",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "out_of_scope_provisional_data_protection",
+      "annotation_status": "pending",
+      "query_text": "A cloud computing company experienced a security vulnerability where customer email addresses were leaked due to a server misconfiguration, but no penal fraud occurred."
+    },
+    {
+      "query_id": "BLIND_034",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "out_of_scope_commercial_arbitration",
+      "annotation_status": "pending",
+      "query_text": "Two corporate business partners had a disagreement regarding profit sharing ratios specified in their partnership deed and filed arbitration claims."
+    },
+    {
+      "query_id": "BLIND_035",
+      "dataset_file": "backend/evaluation/blind_benchmark_dataset.json",
+      "split": "blind",
+      "category": "out_of_scope_commercial_merchandise_return",
+      "annotation_status": "pending",
+      "query_text": "A customer received the wrong color of shoes from an online store and demanded a refund after returning the parcel."
+    }
+  ]
+}

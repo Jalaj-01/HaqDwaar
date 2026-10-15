@@ -1,0 +1,28 @@
+{
+  "manifest_version": "1.1.0",
+  "created_at": "2026-10-15T12:00:00Z",
+  "updated_at": "2026-10-17T02:18:00Z",
+  "description": "LexiLaw Benchmark Manifest and Cryptographic Lock Registry",
+  "locked_benchmarks": {
+    "blind_benchmark_dataset.json": {
+      "filename": "blind_benchmark_dataset.json",
+      "absolute_path": "G:\\NLP\\New\\backend\\evaluation\\blind_benchmark_dataset.json",
+      "sha256": "d3d76c1739112610fa7b436d4e5c5ea8c0e48b9bd98fda32e2543eb70e83ead1",
+      "size_bytes": 26978,
+      "record_count": 35,
+      "split": "blind",
+      "locked": false,
+      "status": "draft_pending_human_annotation",
+      "registered_at": "2026-10-17T02:18:00Z",
+      "corpus_sha256": "becf1f001631bbdc301633df428b0cb541dca97fa45b1ad7cf05db8b1d0d00d0",
+      "operating_threshold_tau": 0.12,
+      "isolation_verification": {
+        "max_pairwise_jaccard_vs_existing": 0.2414,
+        "max_internal_pairwise_jaccard": 0.2353,
+        "leakage_threshold": 0.50,
+        "leakage_detected": false
+      },
+      "notes": "Phase 6 independent blind benchmark draft comprising 35 scenarios covering 28 distinct provisions and 9 out-of-scope/civil categories. Awaiting authentic dual human annotation and senior legal adjudication before cryptographic locking."
+    }
+  }
+}

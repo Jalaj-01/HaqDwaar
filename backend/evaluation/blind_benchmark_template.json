@@ -1,0 +1,49 @@
+{
+  "benchmark_name": "LexiLaw Independent Blind Retrieval Benchmark",
+  "schema_version": "1.0.0",
+  "status": "NOT READY - UNPOPULATED TEMPLATE",
+  "target_query_count": 50,
+  "specification": {
+    "target_distribution": {
+      "positive_incident_queries": "35 queries (70%) spanning IT Act 2000, BNS 2023, and pre-July 2024 IPC 1860 offenses",
+      "out_of_scope_no_match_queries": "15 queries (30%) spanning civil contract, landlord-tenant, consumer disputes, IP/trademark, and lawful daily activities"
+    },
+    "sampling_requirements": [
+      "Realistic natural-language incident phrasing reflecting layperson complainant vocabulary",
+      "Strict avoidance of statutory provision titles, section numbers, or verbatim legal definitions",
+      "Clear chronological markers when distinguishing between IPC 1860 (pre-1 July 2024) and BNS 2023 (post-1 July 2024)",
+      "Fact patterns must explicitly satisfy or negate requisite legal elements (e.g., gender criteria in BNS S78, dishonest inducement in S318)"
+    ],
+    "dual_annotation_protocol": {
+      "independent_annotators_per_query": 2,
+      "minimum_inter_annotator_agreement": "Cohen's Kappa >= 0.80 on binary provision relevance",
+      "adjudication": "Mandatory senior legal adjudicator review for any label, element, or scope disagreement",
+      "provenance_tracking": "Each reviewed query must record primary annotator, secondary reviewer, and legal adjudicator (if escalated)"
+    },
+    "isolation_and_independence_rules": [
+      "Strict physical and logical separation from development training and threshold selection pipelines",
+      "Zero exposure to min_score (tau) calibration sweeps or retrieval ranking parameter searches",
+      "Zero inspection of retrieval candidate scores or rankings prior to official locked evaluation run",
+      "Pairwise token Jaccard similarity must be strictly < 0.50 against all dev and exploratory test queries",
+      "Upon completion and verification, dataset must be cryptographically locked with SHA-256 registered in benchmark_manifest.json"
+    ]
+  },
+  "fields": {
+    "query_id": "string (format: BLIND_001 to BLIND_050)",
+    "query_text": "string (Realistic incident description in complainant words)",
+    "split": "string (must be 'blind')",
+    "relevant_provision_ids": "array of strings (verified provision IDs from legal_provisions.json; empty if expected_no_match=true)",
+    "expected_no_match": "boolean (true if incident is outside indexed penal/cyber provisions)",
+    "category": "string (incident categorization for error analysis)",
+    "legal_elements_verified": "array of strings (substantive legal elements satisfied by the incident facts)",
+    "rationale": "string (statutory legal reasoning linking incident facts to provision elements)",
+    "annotation_status": "string ('pending' during drafting/review, 'reviewed' only after dual-review and adjudication)",
+    "annotator_id": "string (identifier of primary legal annotator)",
+    "reviewer_id": "string (identifier of secondary legal reviewer)",
+    "adjudicator_id": "string or null (senior legal adjudicator for resolving ambiguities)",
+    "provenance_source": "string (origin of incident scenario, e.g., 'synthetic_protocol_v1', 'anonymized_legal_aid_intake')",
+    "unresolved_ambiguity": "string or null (statutory or interpretative open questions requiring judicial clarification)",
+    "locked": "boolean (false during draft/collection, true upon cryptographic lock)"
+  },
+  "queries": []
+}

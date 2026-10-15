@@ -1,0 +1,741 @@
+[
+  {
+    "query_id": "BLIND_001",
+    "query_text": "In August 2024, a job applicant created a fake university degree certificate and submitted it to our company HR department to obtain employment.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "BNS_2023_S336",
+      "BNS_2023_S340"
+    ],
+    "expected_no_match": false,
+    "category": "forgery",
+    "legal_elements_verified": [
+      "BNS_S336_E1: Making false document or electronic record",
+      "BNS_S336_E2: Intent to deceive or commit fraud to obtain employment",
+      "BNS_S340_E2: Using forged document as genuine with knowledge"
+    ],
+    "rationale": "Fabricating a counterfeit educational degree and fraudulently submitting it to secure a job constitutes forgery under Section 336 BNS and using a forged document as genuine under Section 340 BNS (governs acts on or after 1 July 2024).",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "Requires human review to determine if BNS 336 alone or both 336+340 should be ground truth.",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_002",
+    "query_text": "In November 2023, an employee fabricated a fake vendor invoice on official company letterhead and submitted it to finance to claim a fraudulent reimbursement.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "IPC_1860_S468",
+      "IPC_1860_S471"
+    ],
+    "expected_no_match": false,
+    "category": "forgery",
+    "legal_elements_verified": [
+      "IPC_S468_E1: Forgery of a document",
+      "IPC_S468_E2: Intent that forged document be used for cheating",
+      "IPC_S471_E2: Fraudulently presenting forged document as genuine"
+    ],
+    "rationale": "Historical forgery committed prior to 1 July 2024 for cheating finance constitutes Section 468 IPC and presenting it as genuine constitutes Section 471 IPC under Section 358 BNS savings and Article 20(1).",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "Requires confirmation of IPC 468 vs 465 historical baseline.",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_003",
+    "query_text": "In September 2024, an individual presented a doctored property deed that had been forged by an unknown third party, knowing it was fake, to register a disputed land plot.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "BNS_2023_S340"
+    ],
+    "expected_no_match": false,
+    "category": "forgery",
+    "legal_elements_verified": [
+      "BNS_S340_E1: Document is forged",
+      "BNS_S340_E2: Dishonestly using forged document as genuine with knowledge"
+    ],
+    "rationale": "Submitting a forged deed knowing it is fabricated satisfies Section 340 BNS even if the presenter was not the original forger.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_004",
+    "query_text": "In January 2024, a contractor altered the date and figure on an official clearance certificate to avoid municipal inspection penalties.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "IPC_1860_S465"
+    ],
+    "expected_no_match": false,
+    "category": "forgery",
+    "legal_elements_verified": [
+      "IPC_S465_E1: Making false document by alteration",
+      "IPC_S465_E2: Fraudulent intent to avoid penalties"
+    ],
+    "rationale": "Pre-July 2024 general document alteration without cheating a specific person out of property constitutes Section 465 IPC.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "Review whether municipal fraud entails higher penalties.",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_005",
+    "query_text": "In August 2024, a corporate treasurer was entrusted with company liquid assets but secretly siphoned twenty lakh rupees into a personal cryptocurrency wallet.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "BNS_2023_S316"
+    ],
+    "expected_no_match": false,
+    "category": "criminal_breach_of_trust",
+    "legal_elements_verified": [
+      "BNS_S316_E1: Entrustment with company liquid assets",
+      "BNS_S316_E2: Dishonest misappropriation and conversion to own use"
+    ],
+    "rationale": "Dishonest conversion of entrusted corporate assets to personal digital currency constitutes criminal breach of trust under Section 316 BNS (post-July 2024).",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_006",
+    "query_text": "In March 2024, a warehouse manager entrusted with electronic goods inventory dishonestly sold fifty laptops on the grey market and kept the cash.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "IPC_1860_S406"
+    ],
+    "expected_no_match": false,
+    "category": "criminal_breach_of_trust",
+    "legal_elements_verified": [
+      "IPC_S406_E1: Entrustment of electronic inventory",
+      "IPC_S406_E2: Dishonest misappropriation and sale for personal gain"
+    ],
+    "rationale": "Historical misappropriation of entrusted goods committed prior to 1 July 2024 is governed by Section 406 IPC.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_007",
+    "query_text": "In August 2024, a disgruntled ex-employee entered the office server room and intentionally cut the fiber optic cables, destroying critical network equipment.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "BNS_2023_S324",
+      "ITA_2000_S43"
+    ],
+    "expected_no_match": false,
+    "category": "mischief",
+    "legal_elements_verified": [
+      "BNS_S324_E1: Intent to cause wrongful loss and destruction",
+      "BNS_S324_E2: Destruction of property diminishing utility",
+      "ITA_S43_E3: Damaging computer network and equipment"
+    ],
+    "rationale": "Physical sabotage of network infrastructure constitutes mischief under Section 324 BNS alongside computer damage under Section 43 IT Act.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "Confirm whether dual penal/cyber charge is expected or BNS 324 alone.",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_008",
+    "query_text": "In February 2024, an angry neighbor slashed the tires of a parked car and smashed the front windshield with an iron rod.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "IPC_1860_S426"
+    ],
+    "expected_no_match": false,
+    "category": "mischief",
+    "legal_elements_verified": [
+      "IPC_S426_E1: Intent to cause wrongful damage to property",
+      "IPC_S426_E2: Physical destruction diminishing utility of vehicle"
+    ],
+    "rationale": "Deliberate physical destruction of vehicle parts prior to 1 July 2024 constitutes mischief under Section 426 IPC.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_009",
+    "query_text": "In September 2024, a thief snatched an unattended backpack containing a laptop and wallet from a cafe table without the owner's knowledge or consent.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "BNS_2023_S303"
+    ],
+    "expected_no_match": false,
+    "category": "theft",
+    "legal_elements_verified": [
+      "BNS_S303_E1: Dishonest intention to take movable property",
+      "BNS_S303_E2: Taken out of possession without consent",
+      "BNS_S303_E3: Moving property to complete taking"
+    ],
+    "rationale": "Taking movable property out of another's possession dishonestly without consent constitutes theft under Section 303 BNS (post-July 2024).",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_010",
+    "query_text": "In December 2023, a pickpocket stole a gold watch and cash from an office drawer during lunch hour without permission.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "IPC_1860_S379"
+    ],
+    "expected_no_match": false,
+    "category": "theft",
+    "legal_elements_verified": [
+      "IPC_S379_E1: Dishonest intention to take movable property",
+      "IPC_S379_E2: Taken without consent out of possession",
+      "IPC_S379_E3: Moving property to effect taking"
+    ],
+    "rationale": "Historical movable property theft committed prior to 1 July 2024 is governed by Section 379 IPC.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_011",
+    "query_text": "In August 2024, a gang threatened a shopkeeper that they would burn down his grocery store unless he paid them twenty thousand rupees every month.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "BNS_2023_S308"
+    ],
+    "expected_no_match": false,
+    "category": "extortion",
+    "legal_elements_verified": [
+      "BNS_S308_E1: Intentionally putting person in fear of injury/arson",
+      "BNS_S308_E2: Dishonest inducement to deliver money"
+    ],
+    "rationale": "Putting a merchant in fear of property destruction to induce monthly money delivery constitutes extortion under Section 308 BNS (maximum 7 years).",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_012",
+    "query_text": "In January 2024, a blackmailer sent threatening letters to an executive stating he would reveal embarrassing personal secrets unless fifty thousand rupees was deposited in cash.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "IPC_1860_S384"
+    ],
+    "expected_no_match": false,
+    "category": "extortion",
+    "legal_elements_verified": [
+      "IPC_S384_E1: Putting person in fear of injury to reputation",
+      "IPC_S384_E2: Dishonestly demanding delivery of money"
+    ],
+    "rationale": "Historical extortion committed prior to 1 July 2024 is governed by Section 384 IPC (maximum 3 years).",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_013",
+    "query_text": "In August 2024, a gym cleaner installed a spy camera inside the female shower stall to secretly record women without their consent.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "BNS_2023_S77"
+    ],
+    "expected_no_match": false,
+    "category": "voyeurism",
+    "legal_elements_verified": [
+      "BNS_S77_E1: Capturing image of a woman in a private act",
+      "BNS_S77_E2: Reasonable expectation of privacy in shower stall"
+    ],
+    "rationale": "Secretly capturing images of women in private shower facilities constitutes voyeurism under Section 77 BNS (post-July 2024).",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_014",
+    "query_text": "In October 2023, a tenant secretly drilled a peephole into an adjoining bathroom to watch and photograph a female resident.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "IPC_1860_S354C"
+    ],
+    "expected_no_match": false,
+    "category": "voyeurism",
+    "legal_elements_verified": [
+      "IPC_S354C_E1: Watching and capturing image of woman in private act",
+      "IPC_S354C_E2: Reasonable expectation of privacy without consent"
+    ],
+    "rationale": "Historical voyeurism committed prior to 1 July 2024 is governed by Section 354C IPC.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_015",
+    "query_text": "In September 2024, a man repeatedly followed a woman home from the bus stop every evening for three weeks despite her yelling at him to leave her alone.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "BNS_2023_S78"
+    ],
+    "expected_no_match": false,
+    "category": "stalking",
+    "legal_elements_verified": [
+      "BNS_S78_E1: Perpetrator is a man and victim is a woman",
+      "BNS_S78_E2: Repeated physical following despite clear disinterest"
+    ],
+    "rationale": "Persistent following of a woman by a man after explicit disinterest constitutes stalking under Section 78 BNS (post-July 2024).",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_016",
+    "query_text": "In April 2024, a man sent constant unwanted text messages and monitored the social media profiles of a woman who had explicitly blocked his number.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "IPC_1860_S354D"
+    ],
+    "expected_no_match": false,
+    "category": "stalking",
+    "legal_elements_verified": [
+      "IPC_S354D_E1: Man contacting woman despite clear disinterest",
+      "IPC_S354D_E2: Monitoring electronic communication and social media"
+    ],
+    "rationale": "Historical cyberstalking and unwanted electronic contact prior to 1 July 2024 is governed by Section 354D IPC.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_017",
+    "query_text": "In August 2024, a supervisor made vulgar sexual gestures and uttered sexually explicit insults directed at a female employee in the office pantry.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "BNS_2023_S79"
+    ],
+    "expected_no_match": false,
+    "category": "insult_modesty",
+    "legal_elements_verified": [
+      "BNS_S79_E1: Intention to insult modesty of a woman",
+      "BNS_S79_E2: Uttering vulgar words and making obscene gestures"
+    ],
+    "rationale": "Uttering sexually explicit words and making lewd gestures to insult a woman's modesty constitutes Section 79 BNS (post-July 2024).",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_018",
+    "query_text": "In May 2024, an attendee at a conference shouted lewd remarks and made indecent gestures intending to insult the modesty of a woman speaker.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "IPC_1860_S509"
+    ],
+    "expected_no_match": false,
+    "category": "insult_modesty",
+    "legal_elements_verified": [
+      "IPC_S509_E1: Intention to insult modesty of woman",
+      "IPC_S509_E2: Uttering lewd words and gestures"
+    ],
+    "rationale": "Historical insults to female modesty committed prior to 1 July 2024 are governed by Section 509 IPC.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_019",
+    "query_text": "In August 2024, a blogger published a malicious article falsely accusing a local business owner of running an illegal drug ring, severely damaging his business.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "BNS_2023_S356"
+    ],
+    "expected_no_match": false,
+    "category": "defamation",
+    "legal_elements_verified": [
+      "BNS_S356_E1: Publishing written imputation",
+      "BNS_S356_E2: Imputation directly concerns identifiable individual",
+      "BNS_S356_E3: Intent or knowledge to harm reputation"
+    ],
+    "rationale": "Publishing false criminal allegations that harm business reputation constitutes defamation under Section 356 BNS (post-July 2024).",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_020",
+    "query_text": "In November 2023, a resident circulated defamatory flyers across a residential colony alleging that a neighbor was an embezzler.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "IPC_1860_S500"
+    ],
+    "expected_no_match": false,
+    "category": "defamation",
+    "legal_elements_verified": [
+      "IPC_S500_E1: Making and publishing defamatory imputation",
+      "IPC_S500_E2: Intent to harm reputation"
+    ],
+    "rationale": "Historical defamation committed prior to 1 July 2024 is governed by Section 500 IPC.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_021",
+    "query_text": "In August 2024, a moneylender threatened to physically assault a borrower and break his legs unless he surrendered his motorcycle.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "BNS_2023_S351"
+    ],
+    "expected_no_match": false,
+    "category": "criminal_intimidation",
+    "legal_elements_verified": [
+      "BNS_S351_E1: Threat of grievous injury to person",
+      "BNS_S351_E2: Intent to coerce surrender of property"
+    ],
+    "rationale": "Threatening severe bodily injury to coerce property transfer constitutes criminal intimidation under Section 351 BNS (post-July 2024).",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "Check whether extortion (BNS 308) also applies if motorcycle was handed over.",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_022",
+    "query_text": "In February 2024, a landlord threatened to have thugs beat up a tenant and throw his belongings into the street if he did not vacate immediately.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "IPC_1860_S506"
+    ],
+    "expected_no_match": false,
+    "category": "criminal_intimidation",
+    "legal_elements_verified": [
+      "IPC_S506_E1: Threat of injury to person and property",
+      "IPC_S506_E2: Intent to compel vacating premises"
+    ],
+    "rationale": "Historical criminal intimidation through threats of physical violence committed prior to 1 July 2024 is governed by Section 506 IPC.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_023",
+    "query_text": "A hacker deployed ransomware that encrypted database files on a hospital server and demanded ten Bitcoin to provide the decryption key.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "ITA_2000_S66",
+      "ITA_2000_S43"
+    ],
+    "expected_no_match": false,
+    "category": "cyber_hacking",
+    "legal_elements_verified": [
+      "ITA_S43_E3: Damaging and disrupting computer database",
+      "ITA_S66_E1: Unauthorized access under section 43",
+      "ITA_S66_E2: Dishonest and fraudulent intent"
+    ],
+    "rationale": "Deploying ransomware to disrupt medical databases with fraudulent intent constitutes criminal hacking under Section 66 and damage under Section 43 IT Act.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_024",
+    "query_text": "An intruder harvested credit card numbers and passwords from an e-commerce website using a keylogger script.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "ITA_2000_S66C"
+    ],
+    "expected_no_match": false,
+    "category": "cyber_identity_theft",
+    "legal_elements_verified": [
+      "ITA_S66C_E1: Misuse of password and authentication feature",
+      "ITA_S66C_E2: Credentials belong to other consumers",
+      "ITA_S66C_E3: Fraudulent and dishonest capture"
+    ],
+    "rationale": "Capturing and stealing customer passwords and authentication features via scripts constitutes identity theft under Section 66C IT Act.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_025",
+    "query_text": "A scammer set up a phishing website mimicking the income tax e-filing portal to trick taxpayers into revealing their banking passwords and PAN details.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "ITA_2000_S66D"
+    ],
+    "expected_no_match": false,
+    "category": "cyber_personation",
+    "legal_elements_verified": [
+      "ITA_S66D_E1: Use of computer resource and internet domain",
+      "ITA_S66D_E2: Deceptive inducement of taxpayers",
+      "ITA_S66D_E3: Personating legitimate government tax portal"
+    ],
+    "rationale": "Operating a deceptive phishing website mimicking a government tax portal constitutes cheating by personation using computer resource under Section 66D IT Act.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_026",
+    "query_text": "A coworker shared an intimate video of a colleague's private body parts on a messaging group without her consent, recorded during a video call.",
+    "split": "blind",
+    "relevant_provision_ids": [
+      "ITA_2000_S66E"
+    ],
+    "expected_no_match": false,
+    "category": "privacy_violation",
+    "legal_elements_verified": [
+      "ITA_S66E_E1: Capturing and transmitting image of private body parts",
+      "ITA_S66E_E2: Complete absence of consent",
+      "ITA_S66E_E3: Circumstances violating privacy expectation"
+    ],
+    "rationale": "Electronic transmission of intimate private images without consent violates privacy under Section 66E IT Act.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "Review if Section 67A IT Act also applies if video is sexually explicit.",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_027",
+    "query_text": "A software development agency failed to deliver mobile application source code by the contractually agreed deadline despite receiving fifty percent advance payment.",
+    "split": "blind",
+    "relevant_provision_ids": [],
+    "expected_no_match": true,
+    "category": "out_of_scope_civil_breach_of_contract",
+    "legal_elements_verified": [],
+    "rationale": "Failure to complete software milestones under a commercial contract is a civil breach of contract; in the absence of initial fraudulent inducement at contract formation, it does not constitute criminal cheating.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None (pure civil remedy)",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_028",
+    "query_text": "A tenant withheld rent payment for two months citing failure of the landlord to repair water leaks in the ceiling.",
+    "split": "blind",
+    "relevant_provision_ids": [],
+    "expected_no_match": true,
+    "category": "out_of_scope_tenancy_dispute",
+    "legal_elements_verified": [],
+    "rationale": "Disputes regarding rent withholding and maintenance obligations fall under state Rent Control legislation and civil law, not penal or cyber statutes.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_029",
+    "query_text": "A consumer purchased a refrigerator from a retail store that stopped cooling after ten days, and the manufacturer refused to honor the warranty replacement.",
+    "split": "blind",
+    "relevant_provision_ids": [],
+    "expected_no_match": true,
+    "category": "out_of_scope_consumer_protection",
+    "legal_elements_verified": [],
+    "rationale": "Appliance warranty disputes and product defects fall under the Consumer Protection Act, 2019, outside indexed criminal penal law.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_030",
+    "query_text": "An artist drew a political caricature and satirical cartoon of a government minister and published it on a social media humor page.",
+    "split": "blind",
+    "relevant_provision_ids": [],
+    "expected_no_match": true,
+    "category": "out_of_scope_satire_free_speech",
+    "legal_elements_verified": [],
+    "rationale": "Political satire and humorous caricatures lack fraudulent intent and represent protected fair comment, falling outside penal defamation and cyber impersonation.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_031",
+    "query_text": "A passerby took landscape photographs of an architecturally distinctive corporate office tower from a public pavement.",
+    "split": "blind",
+    "relevant_provision_ids": [],
+    "expected_no_match": true,
+    "category": "out_of_scope_public_photography",
+    "legal_elements_verified": [],
+    "rationale": "Photographing a commercial building from a public street sidewalk does not violate privacy provisions (ITA 66E / BNS 77), which require bodily privacy expectations.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_032",
+    "query_text": "A pedestrian was injured in a hit-and-run collision in August 2024 where the driver sped away without reporting to the police.",
+    "split": "blind",
+    "relevant_provision_ids": [],
+    "expected_no_match": true,
+    "category": "out_of_scope_uncommenced_statute",
+    "legal_elements_verified": [],
+    "rationale": "Section 106(2) BNS (hit-and-run failure to report) was specifically held in abeyance by MHA Notification S.O. 850(E) and is not legally in force. Uncommenced provisions cannot be assigned as ground truth.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "BNS 106(2) uncommenced safeguard.",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_033",
+    "query_text": "A cloud computing company experienced a security vulnerability where customer email addresses were leaked due to a server misconfiguration, but no penal fraud occurred.",
+    "split": "blind",
+    "relevant_provision_ids": [],
+    "expected_no_match": true,
+    "category": "out_of_scope_provisional_data_protection",
+    "legal_elements_verified": [],
+    "rationale": "Digital Personal Data Protection Act penalties (Section 33) remain provisional awaiting Data Protection Board operationalization; in the absence of criminal mens rea, this regulatory issue is out of penal scope.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "DPDP Section 33 provisional status.",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_034",
+    "query_text": "Two corporate business partners had a disagreement regarding profit sharing ratios specified in their partnership deed and filed arbitration claims.",
+    "split": "blind",
+    "relevant_provision_ids": [],
+    "expected_no_match": true,
+    "category": "out_of_scope_commercial_arbitration",
+    "legal_elements_verified": [],
+    "rationale": "Partnership profit distribution disputes are governed by commercial arbitration and the Indian Partnership Act, 1932, lacking penal ingredients.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  },
+  {
+    "query_id": "BLIND_035",
+    "query_text": "A customer received the wrong color of shoes from an online store and demanded a refund after returning the parcel.",
+    "split": "blind",
+    "relevant_provision_ids": [],
+    "expected_no_match": true,
+    "category": "out_of_scope_commercial_merchandise_return",
+    "legal_elements_verified": [],
+    "rationale": "E-commerce merchandise return and color mismatch is an ordinary commercial transaction governed by consumer sales terms, not criminal cheating.",
+    "annotation_status": "pending",
+    "annotator_id": "DRAFT_BENCHMARK_PROPOSAL",
+    "reviewer_id": "PENDING_INDEPENDENT_REVIEWER_A",
+    "adjudicator_id": null,
+    "provenance_source": "blind_benchmark_protocol_v1",
+    "unresolved_ambiguity": "None",
+    "locked": false
+  }
+]

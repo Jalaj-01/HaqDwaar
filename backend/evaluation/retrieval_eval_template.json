@@ -1,0 +1,50 @@
+[
+  {
+    "query_id": "QUERY_CYBER_IMPERSONATION",
+    "query_text": "A scammer created a fake profile with my name and photos on social media and messaged my contacts to cheat them out of money.",
+    "relevant_provision_ids": ["ITA_2000_S66D", "BNS_2023_S319"],
+    "notes": "Online cheating by personation using computer resource / social media"
+  },
+  {
+    "query_id": "QUERY_ID_THEFT",
+    "query_text": "Someone stole my account password and OTP to access my account and make unauthorized transactions.",
+    "relevant_provision_ids": ["ITA_2000_S66C"],
+    "notes": "Dishonest use of password, electronic credentials, and unique identification features"
+  },
+  {
+    "query_id": "QUERY_PRIVACY_INTIMATE",
+    "query_text": "Private and intimate photos of me were taken without my consent in a changing room and published online.",
+    "relevant_provision_ids": ["ITA_2000_S66E"],
+    "notes": "Capturing or transmitting non-consensual images of private areas"
+  },
+  {
+    "query_id": "QUERY_EXTORTION",
+    "query_text": "A blackmailer threatened to release my confidential records and hurt me unless I transferred fifty thousand rupees.",
+    "relevant_provision_ids": ["BNS_2023_S308", "BNS_2023_S351"],
+    "notes": "Putting person in fear of injury to induce delivery of money (extortion and intimidation)"
+  },
+  {
+    "query_id": "QUERY_CYBER_STALKING",
+    "query_text": "A man has been persistently following my location, tracking my internet and email activity, and calling me repeatedly despite my clear refusal.",
+    "relevant_provision_ids": ["BNS_2023_S78", "IPC_1860_S354D"],
+    "notes": "Persistent unwanted contact and electronic surveillance of a woman"
+  },
+  {
+    "query_id": "QUERY_DEFAMATION",
+    "query_text": "A former coworker published false statements and accusations online intending to ruin my professional reputation.",
+    "relevant_provision_ids": ["BNS_2023_S356", "IPC_1860_S500"],
+    "notes": "Publishing false defamatory imputations to harm reputation"
+  },
+  {
+    "query_id": "QUERY_UNAUTHORIZED_ACCESS",
+    "query_text": "An intruder hacked our company servers without authorization, copied confidential database tables, and disrupted our network.",
+    "relevant_provision_ids": ["ITA_2000_S43", "ITA_2000_S66"],
+    "notes": "Unauthorized computer access, data downloading, and disruption"
+  },
+  {
+    "query_id": "QUERY_CRIMINAL_INTIMIDATION",
+    "query_text": "A stranger threatened to physically beat me and destroy my vehicle unless I obeyed his demands.",
+    "relevant_provision_ids": ["BNS_2023_S351", "IPC_1860_S506"],
+    "notes": "Threatening injury to person or property to cause alarm or coerce action"
+  }
+]
