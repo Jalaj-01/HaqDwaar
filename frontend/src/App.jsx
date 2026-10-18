@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import OffenseDecoderPage from './pages/OffenseDecoderPage';
 import LegalLanguagePage from './pages/LegalLanguagePage';
 import CaseAnalyzerPage from './pages/CaseAnalyzerPage';
+import { checkBackendHealth } from './services/api';
 import './App.css';
 
 function normalizeTab(raw) {
@@ -18,6 +19,9 @@ export default function App() {
   const [currentTab, setCurrentTab] = useState(() => normalizeTab(window.location.hash));
 
   useEffect(() => {
+    // Proactively ping health endpoint to wake up backend if spinning down
+    checkBackendHealth().catch(() => {});
+
     function handleHashChange() {
       setCurrentTab(normalizeTab(window.location.hash));
     }

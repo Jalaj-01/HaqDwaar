@@ -7,8 +7,22 @@
 
 const API_BASE_URL = (
   (typeof import.meta !== 'undefined' && import.meta.env?.VITE_API_BASE_URL) ||
-  'http://127.0.0.1:8000'
+  (typeof window !== 'undefined' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1'
+    ? 'https://haqdwaar-backend.onrender.com'
+    : 'http://127.0.0.1:8000')
 ).replace(/\/+$/, '');
+
+/**
+ * Health check helper (pings backend to wake up sleeping instances).
+ */
+export async function checkBackendHealth() {
+  try {
+    const res = await fetch(`${API_BASE_URL}/health`);
+    return await res.json();
+  } catch {
+    return null;
+  }
+}
 
 export class ApiError extends Error {
   constructor(message, status = 0, code = 'API_ERROR', requestId = null, details = null) {
