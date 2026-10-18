@@ -18,6 +18,17 @@ export class ApiError extends Error {
     this.code = code;
     this.requestId = requestId;
     this.details = details;
+    Object.setPrototypeOf(this, ApiError.prototype);
+  }
+
+  static isApiError(err) {
+    return Boolean(
+      err && (
+        err instanceof ApiError ||
+        err.name === 'ApiError' ||
+        (typeof err === 'object' && 'status' in err && 'code' in err)
+      )
+    );
   }
 }
 
@@ -42,14 +53,39 @@ async function parseErrorResponse(response) {
     console.error(`[LexiLaw API Error] Status ${status}:`, errorData || text);
   }
 
-  // Specific user-friendly messages based on status
+  // 1. If backend returned a clear structured error message, prioritize it
+  if (errorData?.error?.message) {
+    return new ApiError(
+      errorData.error.message,
+      status,
+      errorData.error.code || 'BACKEND_ERROR',
+      errorData.error.request_id || null,
+      errorData.error
+    );
+  }
+
+  // 2. Handle validation error details if present
+  if (errorData?.detail) {
+    const detailMsg = typeof errorData.detail === 'string'
+      ? errorData.detail
+      : "The input details could not be processed. Please check your text and try again.";
+    return new ApiError(
+      detailMsg,
+      status,
+      'VALIDATION_ERROR',
+      null,
+      errorData.detail
+    );
+  }
+
+  // 3. Status-specific user-friendly fallbacks
   if (status === 404) {
     return new ApiError('No definition found for this term.', 404, 'NOT_FOUND', errorData?.error?.request_id || null);
   }
 
   if (status === 429) {
     return new ApiError(
-      errorData?.error?.message || 'Too many requests. Please wait a moment before trying again.',
+      'Too many requests. Please wait a moment before trying again.',
       429,
       'RATE_LIMIT_EXCEEDED',
       errorData?.error?.request_id || null
@@ -61,35 +97,7 @@ async function parseErrorResponse(response) {
   }
 
   if (status === 413) {
-    return new ApiError('The uploaded file is too large. Maximum supported size is 10 MB.', 413, 'FILE_TOO_LARGE', errorData?.error?.request_id || null);
-  }
-
-  if (status === 400 && errorData?.error?.message?.toLowerCase().includes('pdf')) {
-    return new ApiError('The selected PDF file is corrupted or unreadable. Please try a different document.', 400, 'CORRUPTED_PDF', errorData?.error?.request_id || null);
-  }
-
-  // Handle standard LexiLaw error envelope
-  if (errorData?.error?.message) {
-    // If the message is clear, use it; otherwise fall back to generic
-    const rawMsg = errorData.error.message;
-    return new ApiError(
-      rawMsg,
-      status,
-      errorData.error.code || 'BACKEND_ERROR',
-      errorData.error.request_id || null,
-      errorData.error
-    );
-  }
-
-  // Handle validation error details
-  if (errorData?.detail) {
-    return new ApiError(
-      "The input details could not be processed. Please check your text and try again.",
-      status,
-      'VALIDATION_ERROR',
-      null,
-      errorData.detail
-    );
+    return new ApiError('The uploaded file or request is too large. Maximum supported size is 10 MB.', 413, 'FILE_TOO_LARGE', errorData?.error?.request_id || null);
   }
 
   return new ApiError(
@@ -129,13 +137,13 @@ async function request(endpoint, options = {}) {
 
     return await response.json();
   } catch (err) {
-    if (err instanceof ApiError) {
+    if (ApiError.isApiError(err)) {
       throw err;
     }
-    // Network or connection error when server is unreachable
+    // Network or connection error when server is unreachable or CORS blocked
     console.error('[LexiLaw Connection Error]:', err);
     throw new ApiError(
-      'LexiLaw is temporarily unable to process your request. Please try again shortly.',
+      'LexiLaw is temporarily unable to connect to the backend server. Please verify the server is running.',
       0,
       'NETWORK_ERROR'
     );

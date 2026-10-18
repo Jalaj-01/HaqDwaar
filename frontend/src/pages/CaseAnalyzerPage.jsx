@@ -52,6 +52,8 @@ export default function CaseAnalyzerPage() {
 
     setExtractingPdf(true);
     setExtractError(null);
+    setAnalysisError(null);
+    setCaseResult(null);
     setPdfExtractInfo(null);
 
     try {
@@ -73,6 +75,7 @@ export default function CaseAnalyzerPage() {
 
     setAnalyzing(true);
     setAnalysisError(null);
+    setExtractError(null);
 
     try {
       const response = await analyzeCase({
