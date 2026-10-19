@@ -56,14 +56,24 @@ Thumbs.db
 *.swp
 *.swo
 
-# Exclude all markdown files EXCEPT the root README.md
+# Documentation: track core documentation and templates while ignoring scratch notes
 *.md
 **/*.md
 !/README.md
+!/FINAL_READINESS_REPORT.md
+!/HUMAN_REVIEW_INSTRUCTIONS.md
+!/LEGAL_SOURCE_VERIFICATION_MATRIX.md
+!/PENDING_ANNOTATION_REVIEW.md
+!/backend/evaluation/annotation_workflow/*.md
+!/backend/evaluation/BLIND_BENCHMARK_REVIEW_WORKFLOW.md
+!/backend/evaluation/README.md
+!/backend/README.md
+!/frontend/README.md
 
 # Scratch, intermediate logs and temporary evaluation sweeps
 backend/scratch/
-backend/data/legal_sources/
+backend/data/legal_sources/250883_english_01042024.pdf
+backend/data/legal_sources/Bharatiya_Nagarik_Suraksha_Sanhita,_2023.pdf
 backend/evaluation/benchmark_report*.json
 backend/evaluation/test_threshold_evaluation_results.json
 backend/evaluation/threshold_sweep*.json
